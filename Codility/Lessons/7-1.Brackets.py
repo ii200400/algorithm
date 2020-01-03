@@ -1,6 +1,6 @@
 def solution(S):
     if len(S) == 0:
-        return 0
+        return 1
     
     stack = [S[0]]
     for char in S[1:]:
