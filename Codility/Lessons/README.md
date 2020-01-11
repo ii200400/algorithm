@@ -11,11 +11,11 @@ Lesson 01 Iterations
 
 Lesson 02 Arrays
 
-1. CyclicRotation
+1. OddOccurrencesInArray
 + 링크 (100/100)
   + 내용 서술
 
-2. OddOccurrencesInArray
+2. CyclicRotation
 + 링크 (100/100)
   + 내용 서술
 
@@ -35,19 +35,19 @@ Lesson 03 Time Complexity
 
 Lesson 04 Counting Elements
 
-1. FrogRiverOne
+1. PermCheck
 + 링크 (100/100)
   + 내용 서술
   
-2. PermCheck
+2. FrogRiverOne
 + 링크 (100/100)
   + 내용 서술
   
-3. MissingInteger
+3. MaxCounters
 + 링크 (100/100)
   + 내용 서술
 
-4. MaxCounters
+4. MissingInteger
 + 링크 (100/100)
   + 내용 서술
   
@@ -71,15 +71,15 @@ Lesson 05 Prefix Sums
   
 Lesson 06 Sort
 
-1. Distinct
+1. MaxProductOfThree
 + 링크 (100/100)
   + 내용 서술
 
-2. Triangle
+2. Distinct
 + 링크 (100/100)
   + 내용 서술
   
-3. MaxProductOfThree
+3. Triangle
 + 링크 (100/100)
   + 내용 서술
   
@@ -93,11 +93,11 @@ Lesson 07 Stacks and Queues
 + 링크 (100/100)
   + 내용 서술
   
-2. Nesting
+2. Fish
 + 링크 (100/100)
   + 내용 서술
   
-3. Fish
+3. Nesting
 + 링크 (100/100)
   + 내용 서술
   
