@@ -12,8 +12,13 @@ Lesson 01 Iterations
 Lesson 02 Arrays
 
 1. OddOccurrencesInArray
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingSH3MWH-5GA/ (100/100)
++ https://app.codility.com/demo/results/trainingRZK5ZA-KQH/ (100/100)
+
+  + 위의 것은 딕셔너리에서 값을 모두 저장하다가 한꺼번에 읽으면서 짝이 없는 아이탬을 
+  아래의 것은 짝이 되는 값을 하나씩 삭제하면서 마지막에 남는 아이탬을 반환한다.
+  결국에는 둘 다 딕셔너리를 사용하여 해결하였고 아래의 것이 조금 더 빠르게 되는데 
+  리스트와 다르게 딕셔너리는 값을 삭제를 해도 큰 부담이 없는 것 같다.
 
 2. CyclicRotation
 + 링크 (100/100)
