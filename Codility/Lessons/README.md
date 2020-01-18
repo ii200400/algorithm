@@ -135,3 +135,8 @@ Lesson 09 Maximum slice problem
   + 내용 서술
   
 Lesson 10 Prime and composite numbers
+
+1. MinPerimeterRectangle
++ https://app.codility.com/demo/results/trainingQFE98F-9KN/ (100/100)
+  + 특정 숫자의 제곱근에서 가장 가까운 약수를 구하면 답이 빠르게 나온다.
+  + 에라테스어쩌구의 체를 이용하면 더 빨라지는 것으로 알고는 있으나 값이 작아서 그냥 전부 0.036초가 나와 시도는 하지 않았다.
