@@ -138,5 +138,10 @@ Lesson 10 Prime and composite numbers
 
 1. MinPerimeterRectangle
 + https://app.codility.com/demo/results/trainingQFE98F-9KN/ (100/100)
-  + 특정 숫자의 제곱근에서 가장 가까운 약수를 구하면 답이 빠르게 나온다.
+  + 주어진 숫자의 제곱근에서 가장 가까운 약수를 구하면 답이 빠르게 나온다.
   + 에라테스어쩌구의 체를 이용하면 더 빨라지는 것으로 알고는 있으나 값이 작아서 그냥 전부 0.036초가 나와 시도는 하지 않았다.
+  
+2. CountFactors
++ https://app.codility.com/demo/results/trainingT8FNEX-QB8/ (100/100)
+  + 위와 같이 주어진 숫자의 제곱근에서 숫자 하나씩 탐색하여 모든 약수를 구하였다.
+  + 약수를 빠르게 구하는 방법을 찾다가 유클리드 호제법까지 갔는데 최대공약수를 구하는 방법이였다;;
