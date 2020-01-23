@@ -13,16 +13,19 @@ Lesson 02 Arrays
 
 1. OddOccurrencesInArray
 + https://app.codility.com/demo/results/trainingSH3MWH-5GA/ (100/100)
+  + {특정 값: 특정 값 등장 횟수} 딕셔너리를 만든다.\
+  딕셔너리를 전부 읽으면서 홀수인 value를 가진 값을 반환한다.
 + https://app.codility.com/demo/results/trainingRZK5ZA-KQH/ (100/100)
-
-  + 위의 것은 딕셔너리에서 값을 모두 저장하다가 한꺼번에 읽으면서 짝이 없는 아이탬을 
-  아래의 것은 짝이 되는 값을 하나씩 삭제하면서 마지막에 남는 아이탬을 반환한다.
-  결국에는 둘 다 딕셔너리를 사용하여 해결하였고 아래의 것이 조금 더 빠르게 되는데 
-  리스트와 다르게 딕셔너리는 값을 삭제를 해도 큰 부담이 없는 것 같다.
+  + 위와 같이 딕셔너리를 활용하지만 딕셔너리에 이미 key값이 존재하면 해당 값을 삭제하는 방식으로 하였다.\
+  마지막에는 홀수인 key하나만이 딕셔너리에 남아있게 된다.\
+  위의 방법보다 빠른 것으로 미뤄볼 때 리스트와 다르게 딕셔너리는 값을 삭제를 해도 큰 부담이 없는 것 같다.
 
 2. CyclicRotation
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingZPZP4F-8N3/ (100/100)
+  + 원래는 return A[len(A)-K:] + A[:len(A)-K] 한줄이었다. \
+  len(A)-K가 음수여도 잘 되는 것을 확인하였지만 리스트의 길이를 넘는 음수는 생각하는대로 작동하지 않았다.\
+  예를들어 A = [1,2,3,4,5], K > 10이면 그냥 [1,2,3,4,5]만 나온다.\
+  그래서 위의 코드로 바꾸었다.
 
 Lesson 03 Time Complexity
 
