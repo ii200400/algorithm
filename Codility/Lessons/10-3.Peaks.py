@@ -1,3 +1,8 @@
+# 먼저 peak들의 위치를 리스트로 만든다. (O(n)의 시간복잡도 필요)
+# 리스트 길이의 약수를 찾고
+# 그런데 더 쉬운 방법을 찾아서 그것도 아래에 올렸다.
+# 방법은 같은데 기준을 다르게 두어서 나보다 훨씬 짧고 속도도 조금 더 빠르다.
+
 import math
 
 def solution(A):
@@ -61,3 +66,30 @@ def solution(A):
                     break
     
     return l//answer
+
+# 다른 사람의 해결 방법이다. 배워야겠다..
+def solution(A):
+    peaks = []
+ 
+    for idx in range(1, len(A)-1):
+        if A[idx-1] < A[idx] > A[idx+1]:
+            peaks.append(idx)
+ 
+    if len(peaks) == 0:
+        return 0
+ 
+    for size in range(len(peaks), 0, -1):
+        if len(A) % size == 0:
+            block_size = len(A) // size
+            found = [False] * size
+            found_cnt = 0
+            for peak in peaks:
+                block_nr = peak//block_size
+                if found[block_nr] == False:
+                    found[block_nr] = True
+                    found_cnt += 1
+ 
+            if found_cnt == size:
+                return size
+ 
+    return 0
