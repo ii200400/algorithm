@@ -1,6 +1,5 @@
 def solution(A):
-    left = 0
-    right = sum(A)
+    left, right = 0, sum(A)
     answer = 100000000
     A.pop()
     
