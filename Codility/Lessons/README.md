@@ -1,7 +1,7 @@
 ## Codility 문제 링크
 해당 주제에 관련한 알고리즘을 블로그에서 글로 읽은 것 외에 모든 문제는 다른 사람의 도움을 일체 받지 않았다.\
 때문에 코드가 조금 멍청할 수 있다.\
-다른 사람의 코드를 참조한 경우는 스스로 통과가 되는 코드를 만든 이후이다. (그래야 비교가 확실히 되기 때문이다.)\
+다른 사람의 코드를 참조한 경우는 스스로 통과가 되는 코드를 만든 이후이다. (그래야 비교가 확실히 되기 때문이다.)
 
 Lesson 01 Iterations
 
@@ -30,16 +30,18 @@ Lesson 02 Arrays
 Lesson 03 Time Complexity
 
 1. FrogJmp
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingCW7GMJ-KGS/ (100/100)
+  + 그냥 두 값을 나누고 반올림시키면 된다. 너무 쉬워서 왜 시간복잡도 레슨에 있는지 잘 모르겠다.
   
 2. PermMissingElem
 + 링크 (100/100)
-  + 내용 서술
+  + 1~N까지 더하는 수학 공식으로 한줄에 답을 구할 수 있다.\
+  하지만 공식을 몰라도 10줄 내로 구현은 가능하다.
 
 3. TapeEquilibrium
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingGXN8UE-5P4/ (100/100)
+  + 먼저 왼쪽과 오른쪽의 합을 의미하는 변수를 만들고\
+  한칸씩 이동하면서 왼쪽과 오른쪽의 차이값을 구하여 정답을 구한다.
 
 Lesson 04 Counting Elements
 
