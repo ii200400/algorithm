@@ -34,7 +34,7 @@ Lesson 03 Time Complexity
   + 그냥 두 값을 나누고 반올림시키면 된다. 너무 쉬워서 왜 시간복잡도 레슨에 있는지 잘 모르겠다.
   
 2. PermMissingElem
-+ 링크 (100/100)
++ https://app.codility.com/demo/results/training6PBYPB-ZG3/ (100/100)
   + 1~N까지 더하는 수학 공식으로 한줄에 답을 구할 수 있다.\
   하지만 공식을 몰라도 10줄 내로 구현은 가능하다.
 
