@@ -63,8 +63,8 @@ Lesson 04 Counting Elements
   (딕셔너리 사용해서 특정 데이터 수를 세고 조건에 부합하는지 확인하는 방식)
   
 3. MaxCounters
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/training6KBPXV-49B/ (100/100)
+  + 리스트를 사용해서 설명 그대로 알고리즘을 구현한 것인데 시간복잡도가 너무 크다;
 
 4. MissingInteger
 + 링크 (100/100)
