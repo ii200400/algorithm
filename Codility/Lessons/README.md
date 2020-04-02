@@ -46,12 +46,21 @@ Lesson 03 Time Complexity
 Lesson 04 Counting Elements
 
 1. PermCheck
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/training8XJUVM-UBH/ (100/100)
+  + 중복이 있다는 생각을 하지 못해서 여러번 시도하였다.\
+  딕셔너리에 모든 숫자를 기록하면서 중복이 생기는지 확인하고 마지막에 최대숫자와 숫자들의 갯수가 같은지 확인한다.
+  
+  (2개월 지나서 다시보니까 참 이런 생각은 어떻게 했나 싶다.)
+  
++ https://app.codility.com/demo/results/trainingD5DC9V-M7Q/ (100/100)
+  + 딕셔너리에 숫자를 넣을 때 그 숫자가 중복되는지와 주어진 리스트의 길이보다 작은 숫자인지 확인한다.
+  
+두 가지 모두 크게 다른 점이 없는 알고리즘이기 때문에 속도면에서 큰 차이는 없다.
   
 2. FrogRiverOne
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingZC97JH-MFH/ (100/100)
+  + 평소에 자주 사용하는 알고리즘 방식으로 풀었다.\
+  (딕셔너리 사용해서 특정 데이터 수를 세고 조건에 부합하는지 확인하는 방식)
   
 3. MaxCounters
 + 링크 (100/100)
