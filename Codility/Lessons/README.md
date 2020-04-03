@@ -73,8 +73,12 @@ Lesson 04 Counting Elements
   위와 방법은 같은데 리스트 대신에 딕셔너리를 사용한 점만 다르다.
   
 4. MissingInteger
++ https://app.codility.com/demo/results/trainingQQZ5XE-DAS/ (100/100)
+  + 리스트를 정렬하고 가장 작은 정수를 찾는 방법으로 해결한 것이다.
+
 + https://app.codility.com/demo/results/trainingYWAHKV-TMV/ (100/100)
-  +  나올 수 있는 숫자만큼의 크기를 가진 리스트를 만들고 list.index() 함수를 활용하여 해결했다.
+  +  나올 수 있는 숫자만큼의 크기를 가진 리스트를 만들고 list.index() 함수를 활용하여 해결했다.\
+  정리할 숫자가 많을 때는 위의 방법보다 확실히 빠르다.
   
 Lesson 05 Prefix Sums
 
