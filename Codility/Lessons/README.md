@@ -63,12 +63,18 @@ Lesson 04 Counting Elements
   (딕셔너리 사용해서 특정 데이터 수를 세고 조건에 부합하는지 확인하는 방식)
   
 3. MaxCounters
-+ https://app.codility.com/demo/results/training6KBPXV-49B/ (100/100)
-  + 리스트를 사용해서 설명 그대로 알고리즘을 구현한 것인데 시간복잡도가 너무 크다;
++ https://app.codility.com/demo/results/training6KBPXV-49B/ (60/100)
+  + N 크기의 리스트를 만들고 숫자를 리스트에 기록하다가 \
+  N+1숫자가 나오면 리스트를 모두 0으로 초기화하고 가장 자주나온 숫자는 다른 변수에 기록해둔다.\
+  시간복잡도가 너무 커서 좋지 못한 결과가 나왔다.\
 
++ https://app.codility.com/demo/results/trainingVZ9C3H-32W/ (100/100)
+  + 위의 알고리즘 속도 해결하기 위하여 다른 사람의 코드를 참고하여 알고리즘을 구현했다.\
+  위와 방법은 같은데 리스트 대신에 딕셔너리를 사용한 점만 다르다.
+  
 4. MissingInteger
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingYWAHKV-TMV/ (100/100)
+  +  나올 수 있는 숫자만큼의 크기를 가진 리스트를 만들고 list.index() 함수를 활용하여 해결했다.
   
 Lesson 05 Prefix Sums
 
