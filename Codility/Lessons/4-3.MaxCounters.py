@@ -4,32 +4,30 @@ def solution(N, A):
     array = [0 for _ in range(N)]
     
     for num in A:
-        if num <= N:
-            array[num-1] += 1
-        else:    
+        if num == N+1:
             m = max(array)
             array = [m for _ in range(N)]
+        else:
+            array[num - 1] += 1
             
     return array
 
 # 위의 문제를 해결하기 위해서 사용한 코드 대략 30배 정도 빨라졌다.
 def solution(N, A):
-    dic = {}
-    ma = 0
-    mi = 0
-    
+    dic = dict()
+    max_counter = 0
+    count = 0
+
     for num in A:
-        if num == N+1:
-            mi += ma
-            ma = 0
+        if num == N + 1:
+            max_counter += count
             dic.clear()
+            count = 0
+
         else:
-            dic[num] = dic.get(num, 0) + 1
-            if dic[num] > ma:
-                ma = dic[num]
-            
-    array = [mi for _ in range(N)]
-    for key, val in dic.items():
-        array[key-1] += val
-    
-    return array
+            dic[num - 1] = dic.get(num - 1, 0) + 1
+
+            if dic[num - 1] > count:
+                count = dic[num - 1]
+
+    return [dic.get(idx, 0) + max_counter for idx in range(N)]
