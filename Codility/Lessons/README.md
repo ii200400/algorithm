@@ -97,12 +97,19 @@ Lesson 05 Prefix Sums
   위치별로 ACGT의 출현 횟수를 세어서 2차원배열로 기록하여 답을 도출했다.
   
 3. MinAvgTwoSlice
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingPZ9X7Z-CUW/ (60/100)
+  + 모든 구간을 보면서 가장 평균이 적은 것을 찾아보는 알고리즘이다.\
+  당연히 O(N\*\*2)을 찍으면서 TIMEOUT ERROR로 낮은 점수를 받았다.
+
++ https://app.codility.com/demo/results/training3XPJAQ-7C4/ (100/100)
+  + 놀랍게도 특별한 알고리즘 없이 O(N)만에 끝내버릴 수 있다.\
+  단, 가장 평균이 적은 연속된 숫자의 길이는 항상 2 혹은 3이라는 수학적 증명을 알고 있어야하는데 아래에 링크를 올려두겠다.\
+  (전혀 prefix sum 알고리즘을 사용하지 않았는데 잘못된 항목에 들어간 것인지 다른 방식으로 푼 것인지 잘 모르겠다.)\
+  [관련 링크](https://github.com/daotranminh/playground/blob/master/src/codibility/MinAvgTwoSlice/proof.pdf)  
 
 4. CountDiv
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingGKJKR2-YD3/ (100/100)
+  + 특별한 알고리즘 없이 O(1)만에 끝나는데 어디를 봐야지 prefix sum 문제인지 모르겠다..;
   
 Lesson 06 Sort
 
