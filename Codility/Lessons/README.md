@@ -83,17 +83,23 @@ Lesson 04 Counting Elements
 Lesson 05 Prefix Sums
 
 1. PassingCars
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingHBF72H-YT6/ (100/100)
+  + 리스트를 순차적으로 탐색하면서 오른쪽으로 향하는 자동차 수를 센다.\
+  왼쪽으로 가는 자동차를 발견하면 이전까지의 오른쪽으로 향하는 자동차의 수를 더한다.
   
 2. GenomicRangeQuery
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingVFXM53-A2Z/ (62/100)
+  + 각 query마다 똑같은 계산을 계속하여서 장렬하게 timeout이 나온 코드이다.\
+  이 당시에는 아래에서 사용한 알고리즘 방법인 prefix sum을 몰랐다.  
+
++ https://app.codility.com/demo/results/trainingBJG6YG-MEU/ (100/100)
+  + prefix sum을 사용하였다.\
+  위치별로 ACGT의 출현 횟수를 세어서 2차원배열로 기록하여 답을 도출했다.
   
 3. MinAvgTwoSlice
 + 링크 (100/100)
   + 내용 서술
-  
+
 4. CountDiv
 + 링크 (100/100)
   + 내용 서술
