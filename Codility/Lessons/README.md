@@ -114,8 +114,13 @@ Lesson 05 Prefix Sums
 Lesson 06 Sort
 
 1. MaxProductOfThree
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingN72AWN-Y4M/ (100/100)
+  + 사실 여러번의 수정 끝에 만든 알고리즘이다.\
+  파이썬의 기본 정렬 함수를 사용해서인지 속도는 O(N \* log(N))이다.
+  
+  숫자 리스트가 전부 음수이면 음수 숫자들 중 가장 큰 숫자 3개를,\
+  그렇지 않은 경우에는 숫자들을 음수와 양수로 나누고 각각 절댓값이 가장 큰 수 최대 3개씩 가져온다.\
+  itertools의 조합 함수를 사용하여서 모든 조합에 대하여 가장 숫자들의 곱이 적은 것을 선택하여 결과값을 도출해냈다.
 
 2. Distinct
 + 링크 (100/100)
