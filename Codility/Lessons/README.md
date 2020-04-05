@@ -123,8 +123,12 @@ Lesson 06 Sort
   itertools의 조합 함수를 사용하여서 모든 조합에 대하여 가장 숫자들의 곱이 적은 것을 선택하여 결과값을 도출해냈다.
 
 2. Distinct
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/training4X9QYY-UQV/ (100/100)
+  + O(N\*log(N)) 혹은 O(N)의 시간복잡도이다.\
+  딕셔너리의 특성을 활용해서 중복이 되는 숫자는 자연스럽게 무시하고 마지막에 딕셔너리의 길이를 반환하면 결과값을 쉽게 구할 수 있다.
+
++ https://app.codility.com/demo/results/trainingW7S5CD-DYR/ (100/100)
+  + 위의 코드를 압축하면 이와같이 한줄에 끝낼 수 있다.
   
 3. Triangle
 + 링크 (100/100)
