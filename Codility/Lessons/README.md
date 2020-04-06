@@ -46,48 +46,89 @@ Lesson 03 Time Complexity
 Lesson 04 Counting Elements
 
 1. PermCheck
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/training8XJUVM-UBH/ (100/100)
+  + 중복이 있다는 생각을 하지 못해서 여러번 시도하였다.\
+  딕셔너리에 모든 숫자를 기록하면서 중복이 생기는지 확인하고 마지막에 최대숫자와 숫자들의 갯수가 같은지 확인한다.
+  
+  (2개월 지나서 다시보니까 참 이런 생각은 어떻게 했나 싶다.)
+  
++ https://app.codility.com/demo/results/trainingD5DC9V-M7Q/ (100/100)
+  + 딕셔너리에 숫자를 넣을 때 그 숫자가 중복되는지와 주어진 리스트의 길이보다 작은 숫자인지 확인한다.
+  
+두 가지 모두 크게 다른 점이 없는 알고리즘이기 때문에 속도면에서 큰 차이는 없다.
   
 2. FrogRiverOne
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingZC97JH-MFH/ (100/100)
+  + 평소에 자주 사용하는 알고리즘 방식으로 풀었다.\
+  (딕셔너리 사용해서 특정 데이터 수를 세고 조건에 부합하는지 확인하는 방식)
   
 3. MaxCounters
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/training6KBPXV-49B/ (60/100)
+  + N 크기의 리스트를 만들고 숫자를 리스트에 기록하다가 \
+  N+1숫자가 나오면 리스트를 모두 0으로 초기화하고 가장 자주나온 숫자는 다른 변수에 기록해둔다.\
+  시간복잡도가 너무 커서 좋지 못한 결과가 나왔다.\
 
++ https://app.codility.com/demo/results/trainingVZ9C3H-32W/ (100/100)
+  + 위의 알고리즘 속도 해결하기 위하여 다른 사람의 코드를 참고하여 알고리즘을 구현했다.\
+  위와 방법은 같은데 리스트 대신에 딕셔너리를 사용한 점만 다르다.
+  
 4. MissingInteger
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingQQZ5XE-DAS/ (100/100)
+  + 리스트를 정렬하고 가장 작은 정수를 찾는 방법으로 해결한 것이다.
+
++ https://app.codility.com/demo/results/trainingYWAHKV-TMV/ (100/100)
+  +  나올 수 있는 숫자만큼의 크기를 가진 리스트를 만들고 list.index() 함수를 활용하여 해결했다.\
+  정리할 숫자가 많을 때는 위의 방법보다 확실히 빠르다.
   
 Lesson 05 Prefix Sums
 
 1. PassingCars
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingHBF72H-YT6/ (100/100)
+  + 리스트를 순차적으로 탐색하면서 오른쪽으로 향하는 자동차 수를 센다.\
+  왼쪽으로 가는 자동차를 발견하면 이전까지의 오른쪽으로 향하는 자동차의 수를 더한다.
   
 2. GenomicRangeQuery
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingVFXM53-A2Z/ (62/100)
+  + 각 query마다 똑같은 계산을 계속하여서 장렬하게 timeout이 나온 코드이다.\
+  이 당시에는 아래에서 사용한 알고리즘 방법인 prefix sum을 몰랐다.  
+
++ https://app.codility.com/demo/results/trainingBJG6YG-MEU/ (100/100)
+  + prefix sum을 사용하였다.\
+  위치별로 ACGT의 출현 횟수를 세어서 2차원배열로 기록하여 답을 도출했다.
   
 3. MinAvgTwoSlice
-+ 링크 (100/100)
-  + 내용 서술
-  
++ https://app.codility.com/demo/results/trainingPZ9X7Z-CUW/ (60/100)
+  + 모든 구간을 보면서 가장 평균이 적은 것을 찾아보는 알고리즘이다.\
+  당연히 O(N\*\*2)을 찍으면서 TIMEOUT ERROR로 낮은 점수를 받았다.
+
++ https://app.codility.com/demo/results/training3XPJAQ-7C4/ (100/100)
+  + 놀랍게도 특별한 알고리즘 없이 O(N)만에 끝내버릴 수 있다.\
+  단, 가장 평균이 적은 연속된 숫자의 길이는 항상 2 혹은 3이라는 수학적 증명을 알고 있어야하는데 아래에 링크를 올려두겠다.\
+  (전혀 prefix sum 알고리즘을 사용하지 않았는데 잘못된 항목에 들어간 것인지 다른 방식으로 푼 것인지 잘 모르겠다.)\
+  [관련 링크](https://github.com/daotranminh/playground/blob/master/src/codibility/MinAvgTwoSlice/proof.pdf)  
+
 4. CountDiv
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingGKJKR2-YD3/ (100/100)
+  + 특별한 알고리즘 없이 O(1)만에 끝나는데 어디를 봐야지 prefix sum 문제인지 모르겠다..;
   
 Lesson 06 Sort
 
 1. MaxProductOfThree
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingN72AWN-Y4M/ (100/100)
+  + 사실 여러번의 수정 끝에 만든 알고리즘이다.\
+  파이썬의 기본 정렬 함수를 사용해서인지 속도는 O(N \* log(N))이다.
+  
+  + 숫자 리스트가 전부 음수이면 음수 숫자들 중 가장 큰 숫자 3개를,\
+  그렇지 않은 경우에는 숫자들을 음수와 양수로 나누고 각각 절댓값이 가장 큰 수 최대 3개씩 가져온다.\
+  itertools의 조합 함수를 사용하여서 모든 조합에 대하여 가장 숫자들의 곱이 적은 것을 선택하여 결과값을 도출해냈다.
 
 2. Distinct
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/training4X9QYY-UQV/ (100/100)
+  + O(N\*log(N)) 혹은 O(N)의 시간복잡도이다.\
+  딕셔너리의 특성을 활용해서 중복이 되는 숫자는 자연스럽게 무시하고 마지막에 딕셔너리의 길이를 반환하면 결과값을 쉽게 구할 수 있다.
+
++ https://app.codility.com/demo/results/trainingW7S5CD-DYR/ (100/100)
+  + 위의 코드를 압축하면 이와같이 한줄에 끝낼 수 있다.
   
 3. Triangle
 + 링크 (100/100)
