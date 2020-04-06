@@ -1,44 +1,25 @@
-import heapq, itertools
+# 순열 조합은 사용하는 경우가 은근 있어서 기억하는 것이 좋지만 역시 필요할 때마다 검색하게 된다 ㅎㅎ;;
+import itertools
 
 def solution(A):
-    m_heap = []
-    re_m_heap = []
-    heap = []
-    
+    pos_list = []
+    neg_list = []
     for num in A:
         if num >= 0:
-            heapq.heappush(heap, -num)
+            pos_list.append(num)
         else:
-            heapq.heappush(m_heap, num)
-            heapq.heappush(re_m_heap, -num)
-    
-    nums = []
-    for _ in range(3):
-        if len(heap) > 0:
-            nums.append(-heapq.heappop(heap))
-        else:
-            break
-        
-    if len(nums) == 0:
-        for _ in range(3):
-            if len(re_m_heap) > 0:
-                nums.append(-heapq.heappop(re_m_heap))
-            else:
-                break
-    else:      
-        for _ in range(3):
-            if len(m_heap) > 0:
-                nums.append(heapq.heappop(m_heap))
-            else:
-                break
-    
-    answer = -1000000001
-    combin = list(itertools.combinations(nums, 3))
-    for a,b,c in combin:
-        mul = a*b*c
-        if answer < mul:
-            answer = mul
-            
-    return answer
+            neg_list.append(num)
 
-# 효율성 보다는 정확성이 어려웠던 문제였다. 다음에 다시 풀어봐야겠다.
+    pos_list = sorted(pos_list, key=lambda x: -x)[:3]
+    if len(pos_list) == 0:
+        neg_list = sorted(neg_list, key=lambda x: -x)[:3]
+    else:
+        neg_list = sorted(neg_list, key=lambda x: x)[:3]
+    combinations = list(itertools.combinations(pos_list + neg_list, 3))
+
+    answer = -1000000001
+    for n1, n2, n3 in combinations:
+        if n1 * n2 * n3 > answer:
+            answer = n1 * n2 * n3
+
+    return answer

@@ -1,7 +1,6 @@
 def solution(A):
-    e_car = 0
-    answer = 0
-    
+    e_car, answer = 0, 0
+
     for num in A:
         if num == 0:
             e_car += 1
