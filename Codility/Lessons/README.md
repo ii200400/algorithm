@@ -135,31 +135,40 @@ Lesson 06 Sort
 + https://app.codility.com/demo/results/training4WSBKJ-GSN/ (100/100)
   + 입력으로 받은 리스트를 그대로 sort 함수로 정렬해서 가장 큰 숫자가 나머지의 합보다 작은지만 확인한다.
   
+  + heap으로 구현하면 조금 더 빠르다.
+  
 4. NumberOfDiscIntersections
 + https://app.codility.com/demo/results/training82RXXU-YP6/ (100/100)
   + 원이 시작되고 끝나는 지점을 리스트에 저장하고 정렬을 한다.\
   (정렬을 할 때 한 지점에 원의 시작점과 끝점이 겹치면 시작점이 우선되도록 정렬을 한다.)
   정렬된 리스트를 하나씩 읽어오면서 정답을 구한다.
   
-  + heap으로도 구현이 가능하다.
+  + heap으로 구현하면 조금 더 빠르다.
   
 Lesson 07 Stacks and Queues
 
 1. Brackets
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingKRE8CX-Q57/ (37/100)
+  + 일반적인 스택 알고리즘을 사용해서 풀었다.\
+  하지만 예외 처리를 깜빡잊고 하지 않아서 점수를 낮게 받았다.
+  
++ https://app.codility.com/demo/results/trainingAXV7X3-2FU/ (100/100)
+  + 위의 알고리즘의 버그를 수정한 것이다.\
+  열리지도 않은 괄호를 닫으려고 하는지 괄호가 전부 닫혔는지 확인하는 코드를 추가하였다.
   
 2. Fish
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingD3PU67-W5W/ (100/100)
+  + 스택 알고리즘을 기반으로 문제의 조건에 따라서 스택에 데이터를 넣거나 빼도록 하였다.
+  + stack[len(stack) - 1] 과 stack[-1]은 같은 결과가 나오는데 까먹고 쓰지 않았다.
+  + [참고 코드]https://www.martinkysel.com/codility-fish-solution/ 에서는 내가 쓴 알고리즘에서 추가적으로 변수를 사용하여 풀었는데 좋은 방법인 것 같다.
   
 3. Nesting
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/training6T7SWW-W7F/ (100/100)
+  + 스택이라고 하기에도 무안할 정도이다. 리스트를 사용하지 않고 쉽게 풀 수 있다.
   
 4. StoneWall
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingTGKPBP-V4E/ (100/100)
+  + 처음 문제를 읽을 때는 스택으로 풀어야 할지 난감했지만, 풀고나니 깔끔하게 스택으로 풀수 있고 문제도 신선했다.
   
 Lesson 08 Leader
 
