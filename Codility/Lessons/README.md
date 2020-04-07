@@ -136,8 +136,12 @@ Lesson 06 Sort
   + 입력으로 받은 리스트를 그대로 sort 함수로 정렬해서 가장 큰 숫자가 나머지의 합보다 작은지만 확인한다.
   
 4. NumberOfDiscIntersections
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/training82RXXU-YP6/ (100/100)
+  + 원이 시작되고 끝나는 지점을 리스트에 저장하고 정렬을 한다.\
+  (정렬을 할 때 한 지점에 원의 시작점과 끝점이 겹치면 시작점이 우선되도록 정렬을 한다.)
+  정렬된 리스트를 하나씩 읽어오면서 정답을 구한다.
+  
+  + heap으로도 구현이 가능하다.
   
 Lesson 07 Stacks and Queues
 
