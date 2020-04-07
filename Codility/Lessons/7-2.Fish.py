@@ -1,4 +1,4 @@
-# 정확성 검사에서 한 테스트케이스에서 timeout 된 코드
+# 정확성 검사의 한 테스트케이스에서 timeout 된 코드
 # 스택은 사용 안하고  전체 리스트에서 하나씩 del하여 만들었다.
 
 def solution(A, B):
@@ -42,3 +42,23 @@ def solution(A, B):
     
     #print(C)
     return len(C)
+
+# 위와 같은 알고리즘이지만 표현 방법만 다른 것
+def solution(A, B):
+    stack = []
+    for idx in range(len(A)):
+        while True:
+            if len(stack) == 0:
+                stack.append((A[idx], B[idx]))
+                break
+
+            if B[idx] == 0 and stack[len(stack) - 1][1] == 1:
+                if A[idx] > stack[len(stack) - 1][0]:
+                    stack.pop()
+                else:
+                    break
+            else:
+                stack.append((A[idx], B[idx]))
+                break
+
+    return len(stack)

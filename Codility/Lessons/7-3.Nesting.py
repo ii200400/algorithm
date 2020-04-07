@@ -1,17 +1,13 @@
+# 스택 알고리즘이라고 해야할지 잘 모르겠다;
 def solution(S):
-    if len(S) == 0:
-        return 1
-    
-    count = 0
-    for char in S:
-        if char == '(':
-            count += 1
-        elif count == 0:
-            return 0
-        else:
-            count -= 1
+    stack = 0
 
-    if count == 0:
-        return 1
-    else:
-        return 0
+    for s in S:
+        if s == '(':
+            stack += 1
+        else:
+            if stack == 0:
+                return 0
+            stack -= 1
+
+    return 1 if stack == 0 else 0

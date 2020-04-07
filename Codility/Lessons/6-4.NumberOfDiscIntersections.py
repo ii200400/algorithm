@@ -33,7 +33,7 @@ def solution(A):
     answer = 0
     count = 0
     stack.sort(key=lambda x: (x[0], -x[1]))
-    for num, typ in stack:
+    for _, typ in stack:
         if typ == 1:
             answer += count
             count += 1
