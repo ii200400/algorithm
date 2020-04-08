@@ -173,8 +173,12 @@ Lesson 07 Stacks and Queues
 Lesson 08 Leader
 
 1. Dominator
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingD7KBVC-KQF/ (100/100)
+  + 딕셔너리에 특정 수를 키로, 수의 인덱스와 출현 빈도 수를 값으로 저장하여 결과값을 구했다.
+
++ https://app.codility.com/demo/results/trainingJGV4PR-NW8/ (100/100)
+  + 위의 알고리즘을 만들고 2달후에 싹 까먹고 다시 만든 알고리즘이다. (더 못 만든 것이 함정이다;)\
+  딕셔너리로 특정 수의 출현횟수를 세고 리스트로 해당 수의 인덱스를 하나 저장하였다.
   
 2. EquiLeader
 + 링크 (100/100)
