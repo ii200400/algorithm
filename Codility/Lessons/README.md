@@ -181,8 +181,15 @@ Lesson 08 Leader
   딕셔너리로 특정 수의 출현횟수를 세고 리스트로 해당 수의 인덱스를 하나 저장하였다.
   
 2. EquiLeader
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingHZTJZJ-R8C/ (88/100)
+  + 효율성은 따지지 않고 처음부터 끝까지 왼쪽과 오른쪽의 리더 숫자를 구해서 서로 같은지 확인하는 방법이다.\
+  O(N)이라고 검사되었지만 O(N\*\*2)에 가깝다.
+  
++ https://app.codility.com/demo/results/training8NQC3T-97X/ (100/100)
+  + 전체 리스트의 리더 숫자는 리스트를 둘로 나누었을 때\
+  두 부분의 리더 숫자는 전체 리스트의 리더 숫자와 같거나 없을 수 있다는 점을 깨닫고 나서 만든 알고리즘이다.\
+  위의 사항을 모르면 심하게 해매고 알기만하면 알고리즘은 쉽게 만들 수 있다.\
+  그래서 나도 해매었다;;
   
 Lesson 09 Maximum slice problem
 
