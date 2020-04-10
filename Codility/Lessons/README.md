@@ -194,8 +194,12 @@ Lesson 08 Leader
 Lesson 09 Maximum slice problem
 
 1. MaxProfit
-+ 링크 (100/100)
-  + 내용 서술
++ https://app.codility.com/demo/results/trainingZPUJ8C-VHT/ (100/100)
+  + 리스트를 하나씩 읽어오면서 가장 작은 값을 저장하는 동시에 현재 요소값과의 차이를 비교하여\
+  가장 큰 차이값을 찾아내는 알고리즘
+  
++ https://app.codility.com/demo/results/training623UGQ-7DW/ (100/100)
+  + 위와 완전히 같은 알고리즘이지만 다른 사람의 코드를 보고 개행 수를 조금 줄였다.
   
 2. MaxSliceSum
 + 링크 (100/100)
