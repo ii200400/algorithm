@@ -60,3 +60,30 @@ def solution2(A):
 
 
 solution2([i for i in range(100000)])
+
+# 잘 해결되는 알고리즘!
+def solution(A):
+    dic = dict()
+    for num in A:
+        dic[num] = dic.get(num, 0) + 1
+
+    lead_num, save = 0, 0
+    for key, val in dic.items():
+        if save < val:
+            lead_num, save = key, val
+    # print(lead_num)
+
+    l_cnt, r_cnt, answer = 0, dic[lead_num], 0
+    leng = len(A)
+
+    if dic[lead_num] <= leng // 2: return 0
+
+    for idx, num in enumerate(A):
+        if num == lead_num:
+            l_cnt += 1
+            r_cnt -= 1
+        if l_cnt > (idx + 1) // 2 and r_cnt > (leng - idx - 1) // 2:
+            answer += 1
+        # print(l_cnt, r_cnt, answer)
+
+    return answer
