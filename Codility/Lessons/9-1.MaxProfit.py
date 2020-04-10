@@ -33,3 +33,23 @@ def solution(A):
             answer = num2-num1
             
     return answer
+
+# 리스트를 하나씩 읽어오면서 가장 작은 값을 저장하는 동시에 현재 요소값과의 차이를 비교하여 가장 큰 차이값을 찾아내는 알고리즘
+def solution(A):
+    lowest, answer = 2000001, 0
+    for price in A:
+        if price < lowest:
+            lowest = price
+        if price - lowest > answer:
+            answer = price - lowest
+
+    return answer
+
+# 다른 사람의 알고리즘을 참고하여 위의 알고리즘과 원리는 같지만 개행수를 줄인 것
+def solution(A):
+    lowest, answer = 2000001, 0
+    for price in A:
+        lowest = min(price, lowest)
+        answer = max(price - lowest, answer)
+
+    return answer
