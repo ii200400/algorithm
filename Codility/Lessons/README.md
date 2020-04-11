@@ -218,11 +218,15 @@ Lesson 10 Prime and composite numbers
   
 2. CountFactors
 + https://app.codility.com/demo/results/trainingT8FNEX-QB8/ (100/100)
-  + 위와 같이 주어진 숫자의 제곱근에서 숫자 하나씩 탐색하여 모든 약수를 구하였다.
+  + 주어진 숫자의 제곱근에서 숫자 하나씩 탐색하여 모든 약수를 구하였다.
   + 약수를 빠르게 구하는 방법을 찾다가 유클리드 호제법까지 갔는데 최대공약수를 구하는 방법이였다;;
+  
++ https://app.codility.com/demo/results/trainingJU3BMC-HCK/ (100/100)
+  + 위와 완전히 똑같은 알고리즘이지만 3항 연산자를 사용해서 길이를 조금 줄였다.
   
 3. Peaks
 + https://app.codility.com/demo/results/training7TNVRN-H7P/ (45/100)
   + 블록의 크기가 항상 같아야 하는 점을 못 이해해서 계속 틀리고 있었다;;
+  
 + https://app.codility.com/demo/results/trainingGHCE7T-54U/ (100/100)
   + 먼저 peak들의 위치를 리스트로 만들고 중앙의 약수부터 위 혹은 아래로 이동하면서 되는 약수 중 가장 큰 것(정확히 말하면 길이//약수)을 반환하는 코드
