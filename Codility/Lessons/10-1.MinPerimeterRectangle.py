@@ -5,6 +5,6 @@ import math
 
 def solution(N):
     sqrt = int(math.sqrt(N))
-    for num in range(sqrt,0,-1):
+    for num in range(sqrt, 0, -1):
         if N % num == 0:
             return 2 * (num + N//num)
