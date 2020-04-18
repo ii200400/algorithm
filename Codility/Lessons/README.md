@@ -232,7 +232,7 @@ Lesson 10 Prime and composite numbers
   + 먼저 peak들의 위치를 리스트로 만들고 중앙의 약수부터 위 혹은 아래로 이동하면서 되는 약수 중 가장 큰 것(정확히 말하면 길이//약수)을 반환하는 코드
 
 4. Flags
-+ https://app.codility.com/demo/results/trainingFN6G27-N97/ (93/100)
++ https://app.codility.com/demo/results/trainingXNYE7J-4M9/ (100/100)
   + 리스트 길이-2의 제곱근보다 작은 수가 정답이 될 수 있다고 생각하고 만들었는데\
-  제곱에 +1 만큼의 깃발을 설치하는 테스트 케이스가 있었다..;
-  
+  제곱에 +1 만큼의 깃발을 설치하는 테스트 케이스가 있었다..;\
+  위와 아래의 알고리즘은 완전히 같으며 반복문 내의 수만 다르다.
