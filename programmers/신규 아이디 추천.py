@@ -34,7 +34,7 @@ def solution(new_id):
     # 5,6 단계
     if answer == "": answer = "a"
     elif len(answer) >= 16: answer = answer[:15]
-        
+    
     l = len(answer)
     for re_seq in range(len(answer)):
         if answer[l-1-re_seq] != '.': 
@@ -45,3 +45,9 @@ def solution(new_id):
         answer += answer[len(answer)-1]*(3-len(answer))
     
     return answer
+
+import re
+
+answer = "..a...aa...aa.a...."
+i = re.search("[^.]+(.*[^.]*)*", answer)
+print(i)
