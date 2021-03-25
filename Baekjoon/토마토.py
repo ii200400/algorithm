@@ -19,6 +19,7 @@ def solution():
         input_box = list(map(int, input().split(" ")))
         for r in range(row):
             box[c+1][r+1] = input_box[r]
+            # 이렇게 하는 것보다 박스에 바로 익은 시기를 넣는게 더 빠르다.
             if input_box[r] == 1: que.append([(r+1, c+1), 0]) #(x,y)
 
     # box에 모든 토마토가 익어있으면 0 반환
@@ -52,8 +53,6 @@ def all_riped_tomato(box):
 
 #print(solution())
 
-que = deque()
-que.append([{(1,1), (1,2)}, 0])
-#print(que.popleft())
-(loc1, loc2), dist = que.popleft()
-print(loc1, loc2, dist)
+que = {(1,1), (1,2)}
+(a,b),(c,d) = que
+print(a,b,c,d)

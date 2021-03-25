@@ -20,3 +20,5 @@ import itertools
 print(dir(itertools))
 print(list(itertools.combinations(['1','2','3','4'], 2)))
 print([i for i in ['6','7','8','9']])
+
+print(ord("A"), ord("Z"))
