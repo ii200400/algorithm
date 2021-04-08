@@ -22,3 +22,17 @@ print(list(itertools.combinations(['1','2','3','4'], 2)))
 print([i for i in ['6','7','8','9']])
 
 print(ord("A"), ord("Z"))
+
+# 시간 측정
+from timeit import default_timer as timer
+from datetime import timedelta
+
+put = int(input())
+
+start = timer()  # 시작 시간 저장
+a, b, c, d = [0 for _ in range(put)], [0 for _ in range(put)], [0 for _ in range(put)], [0 for _ in range(put)]
+print(timedelta(seconds=timer()-start))
+
+start = timer()
+a, b, c, d = [0]*put, [0]*put, [0]*put, [0]*put
+print(timedelta(seconds=timer()-start))
