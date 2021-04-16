@@ -1,4 +1,5 @@
 # https://www.acmicpc.net/problem/1987
+# 미해결
 
 # 과거에 풀어봤지만 실패했던 코드 1
 import copy

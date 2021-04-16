@@ -1,6 +1,6 @@
 # 문제 링크 : https://www.acmicpc.net/submit/12946
 # 제출 공유 링크 : 
-# 외않됨?
+# 안되는 반례가 있었음 미해결
 
 def search(i, j):
     return 1 if board[i][j] == 'X' else 0

@@ -36,3 +36,6 @@ print(timedelta(seconds=timer()-start))
 start = timer()
 a, b, c, d = [0]*put, [0]*put, [0]*put, [0]*put
 print(timedelta(seconds=timer()-start))
+
+a = [1,2,3,4]
+print(a[4:], a[:4])
