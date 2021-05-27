@@ -15,27 +15,29 @@ t = (1,2)
 ##print(sorted(['121', '12', '30','3','33','35'], reverse = True))
 ##print(sorted(['ㄱ','기','김']))
 
-import itertools
+# import itertools
 
-print(dir(itertools))
-print(list(itertools.combinations(['1','2','3','4'], 2)))
-print([i for i in ['6','7','8','9']])
+# print(dir(itertools))
+# print(list(itertools.combinations(['1','2','3','4'], 2)))
+# print([i for i in ['6','7','8','9']])
 
-print(ord("A"), ord("Z"))
+# print(ord("A"), ord("Z"))
 
-# 시간 측정
-from timeit import default_timer as timer
-from datetime import timedelta
+# # 시간 측정
+# from timeit import default_timer as timer
+# from datetime import timedelta
 
-put = int(input())
+# put = int(input())
 
-start = timer()  # 시작 시간 저장
-a, b, c, d = [0 for _ in range(put)], [0 for _ in range(put)], [0 for _ in range(put)], [0 for _ in range(put)]
-print(timedelta(seconds=timer()-start))
+# start = timer()  # 시작 시간 저장
+# a, b, c, d = [0 for _ in range(put)], [0 for _ in range(put)], [0 for _ in range(put)], [0 for _ in range(put)]
+# print(timedelta(seconds=timer()-start))
 
-start = timer()
-a, b, c, d = [0]*put, [0]*put, [0]*put, [0]*put
-print(timedelta(seconds=timer()-start))
+# start = timer()
+# a, b, c, d = [0]*put, [0]*put, [0]*put, [0]*put
+# print(timedelta(seconds=timer()-start))
 
-a = [1,2,3,4]
-print(a[4:], a[:4])
+# a = [1,2,3,4]
+# print(a[4:], a[:4])
+
+print(-2%8)
