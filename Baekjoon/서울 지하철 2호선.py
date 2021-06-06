@@ -1,6 +1,7 @@
 # 문제 링크 : https://www.acmicpc.net/problem/16947
 # 제출 공유 링크 : 
 
+# 왜 인지는 모르겠으나 잘 안풀렸다.
 import sys
 input = sys.stdin.readline
 sys.setrecursionlimit(4000)

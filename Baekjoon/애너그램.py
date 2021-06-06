@@ -3,5 +3,4 @@
 
 from itertools import permutations
 
-for i in permutations([1,2,2], 3):
-    print(i, end=" ")
+# 백트레킹으로 풀 수 있다고 한다. 매주 다른 문제가 나오므로 이거는 패스하기로 하겠다.

@@ -1,14 +1,17 @@
 # 문제 링크 : https://www.acmicpc.net/problem/14891
 # 제출 공유 링크 : http://boj.kr/55c96ca9677442bfa44344caf633b0ab
 
+# 각 기어의 n/s극을 기억하는 리스트
 gear_l = [list(map(int, list(input()))) for _ in range(4)]
-# print(gear_l)
+# 각 기어의 가장 위의(12시 방향의) 인덱스를 기억하는 리스트
 gear_12 = [0 for _ in range(4)]
 for _ in range(int(input())):
+    # 선택된 기어와 회전방향
     selected_gear, rot = map(int, input().split())
     selected_gear -= 1 # 인덱스 순서에 맞추기 위해
     rot *= -1 # 시계방향으로 돌면 -1, 반시계는 1을 더하기 위함
 
+    # 각 기어가 어느 방향으로 돌았는지 혹은 돌지 않았는지 기록하는 리스트
     gear_rot = [0 for _ in range(4)]
     gear_rot[selected_gear] = rot
     
