@@ -2,8 +2,8 @@
 # 제출 공유 링크 : http://boj.kr/2281f47c72c94f85bf7e1a0e95da7f3d
 # 도움받은 질문 링크 : https://www.acmicpc.net/board/view/64747
 
-# import sys
-# input = sys.stdin.readline
+import sys
+input = lambda : sys.stdin.readline().rstrip()
 
 # 포도주 양 리스트
 n = int(input())
