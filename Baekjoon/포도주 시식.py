@@ -8,6 +8,7 @@ input = lambda : sys.stdin.readline().rstrip()
 # 포도주 양 리스트
 n = int(input())
 amounts = [int(input()) for i in range(n)]
+# i번째까지 i번째 포도주를 마실때, 가장 많이 마신 양
 max_amt = [0 for i in range(n)]
 
 max_amt[0] = amounts[0]
