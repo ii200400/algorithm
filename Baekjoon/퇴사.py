@@ -1,5 +1,6 @@
 # 문제 링크 : https://www.acmicpc.net/problem/14501
 # 제출 공유 링크 : http://boj.kr/547715ffc6b749a0ab81b0ee45c8a284
+# 참고로 같은 내용에 데이터 범위만 다른 퇴사2도 통과하였다.
 
 import sys
 input = lambda : sys.stdin.readline().rstrip()
