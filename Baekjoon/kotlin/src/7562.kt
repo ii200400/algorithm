@@ -3,12 +3,13 @@
 
 import java.util.*
 
-val queue: Queue<List<Int>> = LinkedList()
-lateinit var map: MutableList<MutableList<Int>>
-
-val move_x = listOf(1,2,2,1,-1,-2,-2,-1)
-val move_y = listOf(2,1,-1,-2,-2,-1,1,2)
 fun main(args: Array<String>) = with(Scanner(System.`in`)) {
+    val moveX = listOf(1,2,2,1,-1,-2,-2,-1)
+    val moveY = listOf(2,1,-1,-2,-2,-1,1,2)
+
+    val queue: Queue<List<Int>> = LinkedList()
+    lateinit var map: MutableList<MutableList<Int>>
+
     for (i in 0 until nextInt()){
         queue.clear()
 
@@ -27,9 +28,9 @@ fun main(args: Array<String>) = with(Scanner(System.`in`)) {
                 break
             }
 
-            for (idx in move_x.indices){
-                val x = step[0]+move_x[idx]
-                val y = step[1]+move_y[idx]
+            for (idx in moveX.indices){
+                val x = step[0]+moveX[idx]
+                val y = step[1]+moveY[idx]
                 if (x in 0 until mapLen && y in 0 until mapLen && map[x][y] == 0){
                     queue.add(listOf(x, y, step[2]+1))
                     map[x][y] = 1

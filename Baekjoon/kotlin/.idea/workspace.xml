@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e913112-57ea-4c4e-bab9-919ddbd40775" name="Default Changelist" comment="저번에 7월 11일을 11월 7일이라고 기입;;&#10;7월 14일 코딩스터디&#10;- 외근으로 인하여 참여 못함.&#10;- 다음주도 그러할 예정..^ㅠ^" />
+    <list default="true" id="1e913112-57ea-4c4e-bab9-919ddbd40775" name="Default Changelist" comment=".gitignore 추가">
+      <change afterPath="$PROJECT_DIR$/src/2143.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/9996.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin/_7562Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin/_7562Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7562.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/7562.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,9 +38,16 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Kotlin._7569Kt">
+  <component name="RunManager" selected="Kotlin._2143Kt">
     <configuration name="ACKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ACKt" />
+      <module name="kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_2143Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2143Kt" />
       <module name="kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -53,13 +67,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_9996Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_9996Kt" />
+      <module name="kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Kotlin.ACKt" />
       <item itemvalue="Kotlin._7562Kt" />
       <item itemvalue="Kotlin._7569Kt" />
+      <item itemvalue="Kotlin._9996Kt" />
+      <item itemvalue="Kotlin._2143Kt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._2143Kt" />
+        <item itemvalue="Kotlin._9996Kt" />
         <item itemvalue="Kotlin._7569Kt" />
         <item itemvalue="Kotlin._7562Kt" />
         <item itemvalue="Kotlin.ACKt" />
@@ -96,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626442906862</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".gitignore 추가">
+      <created>1626443311120</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626443311120</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11월 7일 코딩스터디 (코틀린 시작)" />
     <MESSAGE value="저번에 7월 11일을 11월 7일이라고 기입;;&#10;7월 14일 코딩스터디&#10;- 외근으로 인하여 참여 못함.&#10;- 다음주도 그러할 예정..^ㅠ^" />
-    <option name="LAST_COMMIT_MESSAGE" value="저번에 7월 11일을 11월 7일이라고 기입;;&#10;7월 14일 코딩스터디&#10;- 외근으로 인하여 참여 못함.&#10;- 다음주도 그러할 예정..^ㅠ^" />
+    <MESSAGE value=".gitignore 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore 추가" />
   </component>
 </project>
