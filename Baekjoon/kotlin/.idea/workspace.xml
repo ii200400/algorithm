@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e913112-57ea-4c4e-bab9-919ddbd40775" name="Default Changelist" comment=".gitignore 추가">
-      <change afterPath="$PROJECT_DIR$/src/2143.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/9996.kt" afterDir="false" />
+    <list default="true" id="1e913112-57ea-4c4e-bab9-919ddbd40775" name="Default Changelist" comment="7월 21일 코딩스터디&#10;두 배열의 합(2143), 한국이 그리울 땐 서버에 접속하지 해결">
+      <change afterPath="$PROJECT_DIR$/src/15662.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/15988.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin/_7562Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin/_7562Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/7562.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/7562.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626443311120</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="7월 21일 코딩스터디&#10;두 배열의 합(2143), 한국이 그리울 땐 서버에 접속하지 해결">
+      <created>1626912231271</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626912231271</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +151,7 @@
     <MESSAGE value="11월 7일 코딩스터디 (코틀린 시작)" />
     <MESSAGE value="저번에 7월 11일을 11월 7일이라고 기입;;&#10;7월 14일 코딩스터디&#10;- 외근으로 인하여 참여 못함.&#10;- 다음주도 그러할 예정..^ㅠ^" />
     <MESSAGE value=".gitignore 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore 추가" />
+    <MESSAGE value="7월 21일 코딩스터디&#10;두 배열의 합(2143), 한국이 그리울 땐 서버에 접속하지 해결" />
+    <option name="LAST_COMMIT_MESSAGE" value="7월 21일 코딩스터디&#10;두 배열의 합(2143), 한국이 그리울 땐 서버에 접속하지 해결" />
   </component>
 </project>
