@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e913112-57ea-4c4e-bab9-919ddbd40775" name="Default Changelist" comment="8월 18일 코딩스터디&#10;테트로미노 해결, 동전 뒤집기 미해결">
+    <list default="true" id="1e913112-57ea-4c4e-bab9-919ddbd40775" name="Default Changelist" comment="8월 18일 코딩스터디&#10;미해결이었던 동전 뒤집기 해결(비트마스크 미사용)">
+      <change afterPath="$PROJECT_DIR$/src/1197.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/13244.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1285.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/1285.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +37,23 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Kotlin._1285Kt">
+  <component name="RunManager" selected="Kotlin._13244Kt">
+    <configuration name="_1197Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1197Kt" />
+      <module name="kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_1285Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_1285Kt" />
+      <module name="kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_13244Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_13244Kt" />
       <module name="kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -56,34 +73,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_7569Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_7569Kt" />
-      <module name="kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_9996Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_9996Kt" />
-      <module name="kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Kotlin._7569Kt" />
-      <item itemvalue="Kotlin._9996Kt" />
       <item itemvalue="Kotlin._2143Kt" />
       <item itemvalue="Kotlin._14500Kt" />
       <item itemvalue="Kotlin._1285Kt" />
+      <item itemvalue="Kotlin._1197Kt" />
+      <item itemvalue="Kotlin._13244Kt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._13244Kt" />
+        <item itemvalue="Kotlin._1197Kt" />
         <item itemvalue="Kotlin._1285Kt" />
         <item itemvalue="Kotlin._14500Kt" />
         <item itemvalue="Kotlin._2143Kt" />
-        <item itemvalue="Kotlin._9996Kt" />
-        <item itemvalue="Kotlin._7569Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629282964056</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="8월 18일 코딩스터디&#10;미해결이었던 동전 뒤집기 해결(비트마스크 미사용)">
+      <created>1629535654463</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629535654463</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +177,7 @@
     <MESSAGE value="7월 21일 코딩스터디&#10;두 배열의 합(2143), 한국이 그리울 땐 서버에 접속하지 해결" />
     <MESSAGE value="8월 4일 코딩스터디&#10;1, 2, 3 더하기 3, 톱니바퀴 (2) 해결" />
     <MESSAGE value="8월 18일 코딩스터디&#10;테트로미노 해결, 동전 뒤집기 미해결" />
-    <option name="LAST_COMMIT_MESSAGE" value="8월 18일 코딩스터디&#10;테트로미노 해결, 동전 뒤집기 미해결" />
+    <MESSAGE value="8월 18일 코딩스터디&#10;미해결이었던 동전 뒤집기 해결(비트마스크 미사용)" />
+    <option name="LAST_COMMIT_MESSAGE" value="8월 18일 코딩스터디&#10;미해결이었던 동전 뒤집기 해결(비트마스크 미사용)" />
   </component>
 </project>
