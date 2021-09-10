@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e913112-57ea-4c4e-bab9-919ddbd40775" name="Default Changelist" comment="8월 18일 코딩스터디&#10;미해결이었던 동전 뒤집기 해결(비트마스크 미사용)">
-      <change afterPath="$PROJECT_DIR$/../../programmers/kotlin3/src/test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/7576.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../programmers/kotlin/src/42583.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../programmers/kotlin/src/42586.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../programmers/kotlin/src/42587.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../programmers/kotlin/src/test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programmers/스택과 큐/주식가격.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../programmers/스택과 큐/주식가격.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +42,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Kotlin._13244Kt">
+  <component name="RunManager" selected="Kotlin._7576Kt">
+    <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestKt" />
+      <module name="kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_1197Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_1197Kt" />
       <module name="kotlin" />
@@ -57,34 +71,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_14500Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_14500Kt" />
-      <module name="kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_2143Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2143Kt" />
+    <configuration name="_7576Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_7576Kt" />
       <module name="kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Kotlin.TestKt" />
       <item itemvalue="Kotlin._1197Kt" />
       <item itemvalue="Kotlin._1285Kt" />
       <item itemvalue="Kotlin._13244Kt" />
-      <item itemvalue="Kotlin._14500Kt" />
-      <item itemvalue="Kotlin._2143Kt" />
+      <item itemvalue="Kotlin._7576Kt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._7576Kt" />
+        <item itemvalue="Kotlin.TestKt" />
         <item itemvalue="Kotlin._13244Kt" />
         <item itemvalue="Kotlin._1197Kt" />
         <item itemvalue="Kotlin._1285Kt" />
-        <item itemvalue="Kotlin._14500Kt" />
-        <item itemvalue="Kotlin._2143Kt" />
       </list>
     </recent_temporary>
   </component>
