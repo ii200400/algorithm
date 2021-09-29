@@ -12,7 +12,7 @@
 // genresPlay로 가장 많이 재생된 장르들을 나열하고
 // genresSongList로 장르별 가장 많이 재생된 노래 2가지를 선택한다.
 
-class Solution {
+class Solution42579 {
     fun solution(genres: Array<String>, plays: IntArray): IntArray {
         // 변수 초기화
         val genresPlay = mutableMapOf<String, Int>()

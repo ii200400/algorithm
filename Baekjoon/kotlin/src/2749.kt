@@ -1,4 +1,4 @@
-// 문제 링크 : https://www.acmicpc.net/problem/2014
+// 문제 링크 : https://www.acmicpc.net/problem/2749
 // 제출 공유 링크 : http://boj.kr/130e3509865040dcb788ecf9d8c21886
 // 참고 : https://comyoung.tistory.com/236
 

@@ -8,7 +8,7 @@ import java.util.*
 // [(트럭의 무개, 트럭이 진입한 초), ... ] 와 같이 저장한다.
 // bridgeWeight 다리에 있는 트럭 무개의 총합이다.
 
-class Solution {
+class Solution42583 {
     fun solution(bridge_length: Int, weight: Int, truck_weights: IntArray): Int {
         // 변수 초기화
         var day = 1

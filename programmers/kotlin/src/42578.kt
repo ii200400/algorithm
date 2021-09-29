@@ -3,7 +3,7 @@
 // 옷 종류별로 수를 세고
 // 순열/조합 파트에서 배운 수학 식을 적용하여 답을 도출하는 방식이다.
 
-class Solution {
+class Solution42578 {
     fun solution(clothes: Array<Array<String>>): Int {
         val clotheMap = mutableMapOf<String, Int>()
         for ((_, type) in clothes){

@@ -1,6 +1,5 @@
 // 문제 링크 : https://www.acmicpc.net/problem/1182
-// 제출 공유 링크 : // 문제 링크 : https://www.acmicpc.net/problem/13244
-//// 제출 공유 링크 : http://boj.kr/9d290605611f4b0ea933b35ab7d8d38c
+// 제출 공유 링크 : http://boj.kr/cd73038bbfe4447db9886fbc2dd664f6
 
 // 이전에 부르트포스로 풀었다가 시간제한으로 틀렸던 문제이다. (다시보니 자료구조를 잘 못 쓴것이었다.)
 // 재귀함수를 사용해서 부르트포스를 구현하였다.

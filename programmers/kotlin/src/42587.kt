@@ -12,7 +12,7 @@
 // request 특정조건이 충족되는지 판단하기 위함, 요청한 인쇄물 위치와 인쇄물 우선순위 저장
 // searchIdx 탐색할 인쇄물 위치
 
-class Solution {
+class Solution42587 {
     fun solution(priorities: IntArray, location: Int): Int {
         // 변수 초기화
         var answer = 0

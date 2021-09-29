@@ -7,7 +7,7 @@
 
 import kotlin.math.ceil
 
-class Solution {
+class Solution42586 {
     fun solution(progresses: IntArray, speeds: IntArray): IntArray {
         var answer = arrayListOf<Int>()
 

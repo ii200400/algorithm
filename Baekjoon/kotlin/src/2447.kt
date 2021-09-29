@@ -1,4 +1,4 @@
-// 문제 링크 : https://www.acmicpc.net/problem/2014
+// 문제 링크 : https://www.acmicpc.net/problem/2447
 // 제출 공유 링크 : http://boj.kr/78b4370e92f645baaf84dc7ee75687b2
 
 // 한참을 낙서장에서 패턴을 파악하고 풀었다;;
