@@ -1,3 +1,21 @@
+## 2021년 9월 29일
+
+#### 프로그래머스 - 코딩테스트 고득점 Kit - 힙
+
+1. [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/%ED%9E%99(heap)/%EB%8D%94%20%EB%A7%B5%EA%B2%8C.py)
+	+ 코틀린으로 제출이 불가능하여, 이전에 풀었던 파이썬 코드로 대체
+	+ heapq를 사용하여 힙 자료구조로 해결
+
+2. [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42627.kt)
+	+ PriorityQueue를 사용하여 힙을 구현하여 해결
+
+3. [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42628.kt)
+	+ PriorityQueue를 사용하여 힙을 구현하고 해당 자료형의 함수를 사용하여 간단하게 해결
+
+
 ## 2021년 9월 15일
 
 #### 프로그래머스 - 코딩테스트 고득점 Kit - 스택/큐
