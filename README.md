@@ -1,11 +1,43 @@
+
+## 2021년 10월 6일
+
+#### 프로그래머스 - 코딩테스트 고득점 Kit - 정렬
+
+1. [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42748.kt)
+	+ 정렬을 할 수 있는지 확인하는 문제로 유추되는 매우 간단한 문제
+
+2. [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42746.kt)
+	+ 정렬 방식을 어떻게 해야할지 고려하는 것이 가장 핵심인 문제
+	+ 문제는 크게 어렵지 않으나 정렬 방식을 고안하는 것이 꽤 어렵다.
+
+3. [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42747.kt)
+	+ 문제 이해가 조금 난해하여 문제에서 나오는 조건의 특징과 정렬을 이용하여 해결
+	+ 조건을 파악하는 것이 훨씬 까다로운 문제이며 정렬은 크게 어렵지 않은 문제이다.
+
+#### 프로그래머스 - 코딩테스트 고득점 Kit - 완전탐색
+
+1. [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42840.kt)
+	+ 간단한 완전탐색 문제, 다른 알고리즘 기법은 사용하지 않았다.
+
+2. [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42839.kt)
+	+ 해결 도중
+
+3. [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42842.kt)
+	+ '모의고사' 문제와 비슷한 간단한 완전탐색 문제
+
 ## 2021년 9월 29일
 
 #### 프로그래머스 - 코딩테스트 고득점 Kit - 힙
 
-1. [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
-	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/%ED%9E%99(heap)/%EB%8D%94%20%EB%A7%B5%EA%B2%8C.py)
-	+ 코틀린으로 제출이 불가능하여, 이전에 풀었던 파이썬 코드로 대체
-	+ heapq를 사용하여 힙 자료구조로 해결
+1. [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42840.kt)
+	+ 
 
 2. [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)
 	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42627.kt)
