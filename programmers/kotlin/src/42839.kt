@@ -23,14 +23,3 @@ class Solution42839 {
         return answer
     }
 }
-
-fun main(args: Array<String>) = with(Scanner(System.`in`)) {
-
-    // 소수의 배수들을 싹다 false 처리
-
-    repeat(nextInt()){
-        if (prime[nextInt()]) count++
-    } // N의 개수만큼 반복하여 입력받고 그 수가 소수인지 판별
-
-    println(count)
-}

@@ -3,6 +3,31 @@
 // h-index라는  개념을 숙지하고 해결하면 되는 문제
 // 이상하게 이해가 잘 안된다..
 
+// citations [3, 0, 6, 1, 5] -> [0, 1, 3, 5, 6]
+// 1번째 : citations[0] 0번 이상 인용된 논문이 5편 이상
+// 2번째 : citations[1] 1번 이상 인용된 논문이 4편 이상
+// 1번째 : citations[2] 3번 이상 인용된 논문이 3편 이상 *최대 h는 3*
+// 1번째 : citations[3] 5번 이상 인용된 논문이 2편 이상
+// 1번째 : citations[4] 6번 이상 인용된 논문이 1편 이상
+
+// citations [5, 5] -> [5, 5]
+// 1번째 : citations[0] 5번 이상 인용된 논문이 2편 이상 *최대 h는 2*
+// 2번째 : citations[1] 5번 이상 인용된 논문이 1편 이상
+
+// citations [0, 0] -> [0, 0]
+// 1번째 : citations[0] 0번 이상 인용된 논문이 2편 이상
+// 2번째 : citations[1] 0번 이상 인용된 논문이 1편 이상
+// 최대 h는 0
+
+// citations을 정렬을 한 이후에 순서대로 탐색을 하였을 때,
+// citations[index]는 점점 커지고, citations[index]번 이상 인용된 논문 수가 '1씩' 작아진다.
+// citations[index]가 citations[index]번 이상 인용된 논문 수 보다 크거나 같아지는 순간
+// citations[index]번 이상 인용된 논문의 수가 최대 h가 되는 점을 이용해서 만든 코드이다.
+
+// 수학적으로 자명하게 증명하고 싶었으나 못하겠어서 위와같이 문제의 특징을 찾아내어 코드를 만들었다.
+// 세번째 예시의 예외처리를 위해서 코드가 for 문 내에서 return을 하지 못하고 나오는 경우를 위하여
+// 마지막에 꼭 return 0을 해주어야 한다.
+
 class Solution42747 {
     fun solution(citations: IntArray): Int {
         citations.sort()
