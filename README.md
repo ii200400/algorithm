@@ -9,13 +9,13 @@
 
 2. [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)
 	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42746.kt)
-	+ 정렬 방식을 어떻게 해야할지 고려하는 것이 가장 핵심인 문제
-	+ 문제는 크게 어렵지 않으나 정렬 방식을 고안하는 것이 꽤 어렵다.
+	+ 정렬 방식을 어떻게 해야할지 고려하는 것이 가장 핵심인 문제   
+	  문제는 크게 어렵지 않으나 정렬 방식을 고안하는 것이 꽤 어렵다.
 
 3. [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
 	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42747.kt)
-	+ 문제 이해가 조금 난해하여 문제에서 나오는 조건의 특징과 정렬을 이용하여 해결
-	+ 조건을 파악하는 것이 훨씬 까다로운 문제이며 정렬은 크게 어렵지 않은 문제이다.
+	+ 문제 이해가 조금 난해하여 문제에서 나오는 조건의 특징과 정렬을 이용하여 해결   
+	  조건을 파악하는 것이 훨씬 까다로운 문제이며 정렬은 크게 어렵지 않은 문제이다.
 
 #### 프로그래머스 - 코딩테스트 고득점 Kit - 완전탐색
 
@@ -25,7 +25,8 @@
 
 2. [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
 	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42839.kt)
-	+ 해결 도중
+	+ 에라토스테네스의 체와 완전탐색을 활용하여 해결
+	  중복인 수가 많을수록 효율이 크게 떨어지는 알고리즘이지만, 시간초과는 나지 않았다.
 
 3. [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842)
 	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42842.kt)
