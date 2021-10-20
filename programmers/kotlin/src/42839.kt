@@ -53,8 +53,3 @@ class Solution42839 {
 //채점 결과
 //정확성: 100.0
 //합계: 100.0 / 100.0
-
-fun main() {
-    Solution42839().solution("7777777")
-    Solution42839().solution("011")
-}
