@@ -36,9 +36,10 @@
 
 #### 프로그래머스 - 코딩테스트 고득점 Kit - 힙
 
-1. [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
-	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42840.kt)
-	+ 
+1. [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/%ED%9E%99(heap)/%EB%8D%94%20%EB%A7%B5%EA%B2%8C.py)
+	+ 우선순위 큐를 이용하여 풀 수 있는 간단한 문제
+	+ 코틀린으로 풀이할 수 있는 방법이 없어 파이썬으로 대체한다.
 
 2. [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)
 	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42627.kt)
