@@ -8,7 +8,7 @@
 1. [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861)
 	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42861.kt)
 	+ Union-Find(유니온 파인드)를 활용하여 Kruskal 알고리즘을 구현하여 해결
-	+ 이전에 백준 문제 풀이를 [참고](https://github.com/ii200400/algorithm#2021%EB%85%84-8%EC%9B%94-25%EC%9D%BC)하여 만들었기 때문에 풀이가 비슷하다.
+	+ 이전에 백준 문제 풀이([13244번 Tree](https://github.com/ii200400/algorithm#2021%EB%85%84-8%EC%9B%94-25%EC%9D%BC))를 참고하여 만들었기 때문에 풀이가 비슷하다.
 
 2. [단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884)
 	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/%ED%83%90%EC%9A%95%EB%B2%95(greedy)/%EB%8B%A8%EC%86%8D%EC%B9%B4%EB%A9%94%EB%9D%BC.py)
