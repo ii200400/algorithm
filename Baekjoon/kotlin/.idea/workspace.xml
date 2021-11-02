@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e913112-57ea-4c4e-bab9-919ddbd40775" name="Default Changelist" comment="이전 커밋에 대한 일부 파일 링크 수정">
-      <change afterPath="$PROJECT_DIR$/../../programmers/kotlin/src/42627.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1062.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/17298.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1182.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/1182.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/2447.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/2447.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/2749.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/2749.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chanllenges4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenges4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programmers/kotlin/src/test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../programmers/kotlin/src/test.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +38,16 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Kotlin._2749Kt">
-    <configuration name="Challenges4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Challenges4Kt" />
+  <component name="RunManager" selected="Kotlin._1062Kt">
+    <configuration name="_1062Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1062Kt" />
       <module name="kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1987Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1987Kt" />
+    <configuration name="_17298Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_17298Kt" />
       <module name="kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,19 +75,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin._1987Kt" />
       <item itemvalue="Kotlin._2014Kt" />
       <item itemvalue="Kotlin._2447Kt" />
       <item itemvalue="Kotlin._2749Kt" />
-      <item itemvalue="Kotlin.Challenges4Kt" />
+      <item itemvalue="Kotlin._17298Kt" />
+      <item itemvalue="Kotlin._1062Kt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._1062Kt" />
+        <item itemvalue="Kotlin._17298Kt" />
         <item itemvalue="Kotlin._2749Kt" />
         <item itemvalue="Kotlin._2447Kt" />
         <item itemvalue="Kotlin._2014Kt" />
-        <item itemvalue="Kotlin._1987Kt" />
-        <item itemvalue="Kotlin.Challenges4Kt" />
       </list>
     </recent_temporary>
   </component>
