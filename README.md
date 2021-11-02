@@ -1,7 +1,21 @@
+## 2021년 11월 2일
+
+#### 백준
+
+1. [가르침](https://www.acmicpc.net/problem/1062)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/Baekjoon/kotlin/src/1062.kt)
+	+ [백준 공유 링크](http://boj.kr/b57cd096a921468f99d15eb512f9a28e)
+	+ 일반적인 브루트 포스, 백트래킹을 구현하여 해결하는 문제이나 
+	  문제조건과 관련하여 개인적으로 조금 더 효율적인 코드를 작성하였다. 
+
+2. [오큰수](https://www.acmicpc.net/problem/17298)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/Baekjoon/kotlin/src/17298.kt)
+	+ [백준 공유 링크](http://boj.kr/aeaf2462588d41d5bb099de2b3a765d6)
+	+ 스택을 활용한 큰 수 찾기 문제이다.
 
 ## 2021년 10월 27일
 
-취준에 쌍수 수술까지 하니 3주가 날아가있는 마법이..
+면접에 쌍수 수술까지 하니 3주가 날아가있는 마법이..
 
 #### 프로그래머스 - 코딩테스트 고득점 Kit -탐욕법
 
