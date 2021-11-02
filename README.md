@@ -1,4 +1,19 @@
 
+## 2021년 10월 27일
+
+취준에 쌍수 수술까지 하니 3주가 날아가있는 마법이..
+
+#### 프로그래머스 - 코딩테스트 고득점 Kit -탐욕법
+
+1. [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/kotlin/src/42861.kt)
+	+ Union-Find(유니온 파인드)를 활용하여 Kruskal 알고리즘을 구현하여 해결
+	+ 이전에 백준 문제 풀이([13244번 Tree](https://github.com/ii200400/algorithm#2021%EB%85%84-8%EC%9B%94-25%EC%9D%BC))를 참고하여 만들었기 때문에 풀이가 비슷하다.
+
+2. [단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/%ED%83%90%EC%9A%95%EB%B2%95(greedy)/%EB%8B%A8%EC%86%8D%EC%B9%B4%EB%A9%94%EB%9D%BC.py)
+	+ 정렬과 우선순위 큐를 활용하여 탐욕법으로 해결
+
 ## 2021년 10월 6일
 
 #### 프로그래머스 - 코딩테스트 고득점 Kit - 정렬
@@ -180,6 +195,6 @@
 2. [13244번 Tree](https://www.acmicpc.net/problem/13244)
 	+ [풀이](https://github.com/ii200400/algorithm/blob/master/Baekjoon/kotlin/src/13244.kt)
 	+ [백준 공유 코드](https://www.acmicpc.net/source/share/9d290605611f4b0ea933b35ab7d8d38c)
-	+ Union-Find(유니온 파인드 혹은 Disjoint-set)를 활용하여 해결
+	+ Union-Find(유니온 파인드 혹은 Disjoint-set)를 활용하여 Kruskal 알고리즘을 구현하여 해결
 
   
