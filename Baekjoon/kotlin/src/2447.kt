@@ -15,7 +15,7 @@ import java.io.BufferedWriter
 import java.io.InputStreamReader
 import java.io.OutputStreamWriter
 
-fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main2447() = with(BufferedReader(InputStreamReader(System.`in`))) {
     with(BufferedWriter(OutputStreamWriter(System.out))) {
         val n = readLine().toInt()
 

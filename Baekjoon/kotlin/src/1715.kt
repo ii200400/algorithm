@@ -11,7 +11,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.*
 
-fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main1715() = with(BufferedReader(InputStreamReader(System.`in`))) {
     // 변수 초기화
     var count = 0
     val priorityQueue = PriorityQueue<Int>()

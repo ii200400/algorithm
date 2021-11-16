@@ -13,7 +13,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import kotlin.math.min
 
-fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main125() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val n = readLine().toInt()
     val map = Array(n){ readLine().map { it == 'H' }.toTypedArray() }
     var minTail = 400

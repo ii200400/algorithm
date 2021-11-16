@@ -11,7 +11,7 @@
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
-fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main2749() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val n = (readLine().toLong() % 1500000).toInt()
     val fib = Array(n+1){0}
     fib[1] = 1

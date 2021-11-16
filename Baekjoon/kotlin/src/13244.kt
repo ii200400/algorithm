@@ -7,7 +7,7 @@
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
-fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main13244() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val t = readLine().toInt()
     // 유니온 파인드 id 저장
     var parents = emptyArray<Int>()

@@ -5,7 +5,7 @@
 
 import java.util.*
 
-fun main(args: Array<String>) = with(Scanner(System.`in`)) {
+fun main9996(args: Array<String>) = with(Scanner(System.`in`)) {
     val n = nextInt()
     val re = next().replace("*", "\\w*").toRegex()
 //    println(re.toString())

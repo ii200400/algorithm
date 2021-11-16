@@ -12,7 +12,7 @@ import java.io.InputStreamReader
 import java.util.*
 import kotlin.math.max
 
-fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main7576() = with(BufferedReader(InputStreamReader(System.`in`))) {
     // 변수 초기화
     val (m, n) = readLine().split(" ").map { it.toInt() }
     val queue: Queue<Array<Int>> = LinkedList()

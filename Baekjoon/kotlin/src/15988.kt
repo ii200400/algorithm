@@ -3,7 +3,7 @@
 
 import java.util.*
 
-fun main(args: Array<String>) {
+fun main15988(args: Array<String>) {
     val sc = Scanner(System.`in`)
 
     val list = MutableList<Long>(1000001) { 0 }

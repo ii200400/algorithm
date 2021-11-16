@@ -19,7 +19,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.*
 
-fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main2014() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val (_, n) = readLine().split(" ").map { it.toInt() }
     val primes = readLine().split(" ").map { it.toInt() }
     val heap = PriorityQueue(primes)
@@ -42,7 +42,7 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     println(heap.poll())
 }
 
-//fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+//fun main2014-2() = with(BufferedReader(InputStreamReader(System.`in`))) {
 //    val (_, n) = readLine().split(" ").map { it.toInt() }
 //    val decimals = readLine().split(" ").map { it.toInt() }
 //    val heap = PriorityQueue(decimals)

@@ -6,7 +6,7 @@
 
 import java.util.*
 
-fun main(args: Array<String>) = with(Scanner(System.`in`)) {
+fun main2143(args: Array<String>) = with(Scanner(System.`in`)) {
     val t = nextInt()
     val a = Array(nextInt()) { nextInt() }
     val b = Array(nextInt()) { nextInt() }

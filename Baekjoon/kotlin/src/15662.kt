@@ -3,7 +3,7 @@
 
 import java.util.*
 
-fun main(args: Array<String>) {
+fun main15662(args: Array<String>) {
     val sc = Scanner(System.`in`)
 
     val t = sc.nextInt()

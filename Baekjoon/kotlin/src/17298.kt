@@ -8,7 +8,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.*
 
-fun main1() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun nonPass() = with(BufferedReader(InputStreamReader(System.`in`))) {
     readLine()
     val numbers = readLine().split(" ").map { it.toInt() }.toIntArray()
     val answer = mutableListOf<Int>()
@@ -39,7 +39,7 @@ fun main1() = with(BufferedReader(InputStreamReader(System.`in`))) {
 //
 // 이해가 안된다면 위의 참고 링크를 보자, 그림을 그리면서 설명하여서 이해가 쉽다.
 
-fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main17298(args: Array<String>) = with(BufferedReader(InputStreamReader(System.`in`))) {
     readLine()
     val numbers = readLine().split(" ").map { it.toInt() }
     val stack = Stack<Pair<Int, Int>>()

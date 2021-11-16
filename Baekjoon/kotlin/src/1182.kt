@@ -11,7 +11,7 @@
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
-fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main1182() = with(BufferedReader(InputStreamReader(System.`in`))) {
     // 변수 초기화
     val (n, sum) = readLine().split(" ").map { it.toInt() }
     val numbers = readLine().split(" ").map { it.toInt() }

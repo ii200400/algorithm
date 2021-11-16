@@ -21,7 +21,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.*
 
-fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main1068() = with(BufferedReader(InputStreamReader(System.`in`))) {
     // 노드 데이터 클래스
     data class Node (
         val childrenIdx: LinkedList<Int> = LinkedList<Int>()

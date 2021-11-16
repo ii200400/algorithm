@@ -3,7 +3,7 @@
 
 import java.util.*
 
-fun main(args: Array<String>) = with(Scanner(System.`in`)) {
+fun main7562(args: Array<String>) = with(Scanner(System.`in`)) {
     val moveX = listOf(1,2,2,1,-1,-2,-2,-1)
     val moveY = listOf(2,1,-1,-2,-2,-1,1,2)
 

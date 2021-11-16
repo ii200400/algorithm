@@ -10,7 +10,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import kotlin.math.max
 
-fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main1062() = with(BufferedReader(InputStreamReader(System.`in`))) {
     var (n, k) = readLine().split(" ").map { it.toInt() }
     // acint - 5글자는 필수적이므로
     if (k < 5) {

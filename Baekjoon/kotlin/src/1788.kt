@@ -9,7 +9,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import kotlin.math.abs
 
-fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main1788() = with(BufferedReader(InputStreamReader(System.`in`))) {
     var n = readLine().toInt()
 
     // n=0일 때, 예외처리를 넣은 첫째줄 출력

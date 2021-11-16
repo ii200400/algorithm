@@ -8,7 +8,7 @@ import java.util.*
 val searchX = arrayOf(1,-1,0,0,0,0)
 val searchY = arrayOf(0,0,1,-1,0,0)
 val searchZ = arrayOf(0,0,0,0,1,-1)
-fun main(args: Array<String>) = with(Scanner(System.`in`)) {
+fun main7569(args: Array<String>) = with(Scanner(System.`in`)) {
     val queue: Queue<Array<Int>> = LinkedList()
     val (x, y, z) = arrayOf(nextInt(), nextInt(), nextInt())
     var dayCount = 0

@@ -8,7 +8,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import kotlin.math.max
 
-fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main14500() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val form = arrayOf(
         // 1,4 idx 0
         arrayOf(intArrayOf(0, 0), intArrayOf(0, 1), intArrayOf(0, 2), intArrayOf(0, 3)),
