@@ -1,3 +1,15 @@
+## 2021년 11월 3일
+
+#### 프로그래머스 - 코딩테스트 고득점 Kit - 동적계획법(Dynamic Programming)
+
+1. [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/Baekjoon/kotlin/src/1062.kt)
+	+ 일반적인 동적계획법(점화식을 코딩으로 구현하는 듯한) 방식으로 풀었다. 
+
+2. [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/programmers/%EB%8F%99%EC%A0%81%EA%B3%84%ED%9A%8D%EB%B2%95/%EC%A0%95%EC%88%98%20%EC%82%BC%EA%B0%81%ED%98%95.py)
+	+ 위의 문제를 풀면서 한 번 더 공부하였다, 예전에 코드를 잘 짜놓아서 딱히 변경한 점은 없었다.
+
 ## 2021년 11월 2일
 
 #### 백준
