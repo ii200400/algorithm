@@ -1,3 +1,13 @@
+## 2021년 11월 16일
+
+#### 백준
+
+1. [다이어트](https://www.acmicpc.net/problem/19942)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/Baekjoon/kotlin/src/19942.kt)
+	+ [백준 공유 링크](http://boj.kr/ec74792adf384caca0058506397dd0df)
+	+ 브루트 포스, 백트래킹 관련 문제로 재귀함수를 활용하여 해결하였다. 
+	+ 사전순이라는 기준으로 인하여 잠시 혼란스러웠다, 생각해보니 간단히 해결이 가능하였다.
+
 ## 2021년 11월 3일
 
 #### 프로그래머스 - 코딩테스트 고득점 Kit - 동적계획법(Dynamic Programming)
