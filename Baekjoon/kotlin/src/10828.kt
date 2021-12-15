@@ -18,8 +18,8 @@ fun main10828() = with(BufferedReader(InputStreamReader(System.`in`))){
             "push" -> stack.push(commend[1].toInt())
             "pop" -> if (stack.empty()) println(-1) else println(stack.pop())
             "size" -> println(stack.size)
-            "empty" -> if (stack.empty()) println(1) else println(0)
-            "top" -> if (stack.empty()) println(-1) else println(stack.peek())
+            "empty" -> println(if (stack.empty()) 1 else 0)
+            "top" -> println(stack.lastOrNull() ?: -1)
         }
     }
 }
