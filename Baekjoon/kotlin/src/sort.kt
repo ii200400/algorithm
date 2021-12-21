@@ -29,7 +29,6 @@ class Sort{
         }
     }
 
-
     fun insertSort(A: Array<Int>){
         for (index in 1 until A.size) {
             val temp: Int = A[index]
@@ -64,7 +63,7 @@ class Sort{
                     tempA[tempIdx] = A[leftIdx]
                     leftIdx += 1
                 }
-                A[leftIdx] < A[rightIdx] -> {
+                A[leftIdx] <= A[rightIdx] -> {
                     tempA[tempIdx] = A[leftIdx]
                     leftIdx += 1
                 }
@@ -99,6 +98,7 @@ class Sort{
 
     // A: 정렬하고 싶은 리스트, start/end: 정렬하고 싶은 범위(start와 end 포함)
     // A 리스트 자체를 정렬시킨다.
+    // while문 내부를 일반적인 퀵 소트 알고리즘과 약간 다르게 만들었으나 크게 다르지 않다.
     fun quickSort(A: Array<Int>, start: Int, end: Int){
         val pivot = A[start]
         var left = start+1
@@ -117,6 +117,7 @@ class Sort{
         A[start] = A[right]
         A[right] = pivot
 
+        // 숫자 하나만 남아있다면 정렬된 것과 같으므로
         if (right - start > 2) quickSort(A, start, right-1)
         if (end - right > 2) quickSort(A, right+1, end)
     }
