@@ -18,7 +18,7 @@
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
-fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main4256() = with(BufferedReader(InputStreamReader(System.`in`))) {
     var cnt = 0 // preOrder의 숫자를 순서대로 가져오기 위해 쓰는 변수
     var preOrder = arrayOf(1)
     var inOrder = arrayOf(1)
