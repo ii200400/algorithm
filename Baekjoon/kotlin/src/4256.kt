@@ -19,7 +19,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 
 fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
-    var cnt = 0
+    var cnt = 0 // preOrder의 숫자를 순서대로 가져오기 위해 쓰는 변수
     var preOrder = arrayOf(1)
     var inOrder = arrayOf(1)
 
@@ -28,10 +28,11 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
         // 서브 트리에 아무것도 없으면 되돌아간다.
         if (subInOrder.isEmpty()) return
 
+        // preOrder 다음 숫자를 가져오고 inOrder에서 해당 숫자를 탐색
         cnt += 1
         val saveCnt = cnt
         val numIndex = subInOrder.indexOf(preOrder[cnt])
-        if (numIndex == -1) return
+        if (numIndex == -1) return // 예외처리, 없어도 되는 코드
 
         // 왼쪽 서브 트리 탐색
         printPostOrderWithLargeMemory(subInOrder.sliceArray(0 until numIndex))
@@ -42,9 +43,12 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
 
     // 다른 블로그를 참고해서 만든 코드
     fun printPostOrder(parentIndex: Int, from: Int, to: Int){
+        // preOrder 특정 인덱스에 있는 숫자를 가져오고 inOrder에서 해당 숫자를 탐색
         for (i in from..to){
             if (inOrder[i] == preOrder[parentIndex]){
+                // 왼쪽 서브 트리 탐색
                 printPostOrder(parentIndex+1, from, i-1)
+                // 오른쪽 서브 트리 탐색
                 printPostOrder(parentIndex+(i-from)+1, i+1, to)
                 print("${preOrder[parentIndex]} ")
                 break
@@ -52,6 +56,7 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
         }
     }
 
+    // 테스트 캐이스만큼 반복
     for (t in 0 until readLine().toInt()) {
         val n = readLine().toInt()
         preOrder = readLine().trim().split(" ").map { it.toInt() }.toTypedArray()
