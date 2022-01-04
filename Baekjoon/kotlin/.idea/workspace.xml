@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e913112-57ea-4c4e-bab9-919ddbd40775" name="Default Changelist" comment="이전 커밋에 대한 일부 파일 링크 수정">
-      <change afterPath="$PROJECT_DIR$/src/1062.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/17298.kt" afterDir="false" />
+    <list default="true" id="1e913112-57ea-4c4e-bab9-919ddbd40775" name="Default Changelist" comment="자료구조를 위한 힙 문제 풀이 2 (2220번)">
+      <change afterPath="$PROJECT_DIR$/src/15829.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin/_7562Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin/_7562Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1838.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/1838.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1991.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/1991.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/19942.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/19942.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2220.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/2220.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/challenges1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenges1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/challenges2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenges2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/challenges3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenges3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/challenges4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/challenges4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../programmers/kotlin/src/test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../programmers/kotlin/src/test.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,12 +27,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Class" />
+        <option value="Interface" />
         <option value="Kotlin File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1uoRA0RM8xFVchtdnh94DyDbWmY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,56 +59,56 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Kotlin._1062Kt">
-    <configuration name="_1062Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1062Kt" />
+  <component name="RunManager" selected="Kotlin._15829Kt">
+    <configuration name="_15829Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_15829Kt" />
       <module name="kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_17298Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_17298Kt" />
+    <configuration name="_1927Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1927Kt" />
       <module name="kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2014Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2014Kt" />
+    <configuration name="_1991Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1991Kt" />
       <module name="kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2447Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2447Kt" />
+    <configuration name="_2220Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2220Kt" />
       <module name="kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2749Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2749Kt" />
+    <configuration name="_4256Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_4256Kt" />
       <module name="kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin._2014Kt" />
-      <item itemvalue="Kotlin._2447Kt" />
-      <item itemvalue="Kotlin._2749Kt" />
-      <item itemvalue="Kotlin._17298Kt" />
-      <item itemvalue="Kotlin._1062Kt" />
+      <item itemvalue="Kotlin._1991Kt" />
+      <item itemvalue="Kotlin._4256Kt" />
+      <item itemvalue="Kotlin._1927Kt" />
+      <item itemvalue="Kotlin._2220Kt" />
+      <item itemvalue="Kotlin._15829Kt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin._1062Kt" />
-        <item itemvalue="Kotlin._17298Kt" />
-        <item itemvalue="Kotlin._2749Kt" />
-        <item itemvalue="Kotlin._2447Kt" />
-        <item itemvalue="Kotlin._2014Kt" />
+        <item itemvalue="Kotlin._15829Kt" />
+        <item itemvalue="Kotlin._2220Kt" />
+        <item itemvalue="Kotlin._1927Kt" />
+        <item itemvalue="Kotlin._4256Kt" />
+        <item itemvalue="Kotlin._1991Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +191,112 @@
       <option name="project" value="LOCAL" />
       <updated>1631682805035</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2021년 11월 2일 화요일 코딩스터디&#10;백준의 1062번-가르침 과 17298번 오큰수 해결">
+      <created>1635849951412</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1635849951413</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2021년 11월 16일 화요일 코딩스터디&#10;백준의 19942 다이어트 해결&#10;main에 관련된 오류로 인하여 함수명 대폭 변경">
+      <created>1637060816519</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1637060816519</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2021년 11월 16일 화요일 코딩스터디&#10;백준의 19942 다이어트 해설 추가 및 사전순 비교 방법 추가">
+      <created>1637679757374</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1637679757374</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2021년 12월 1일 화요일&#10;13460 구슬 탈출 2 문제 해결 및 풀이 정리">
+      <created>1638328593857</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1638328593857</updated>
+    </task>
+    <task id="LOCAL-00015" summary="자료구조를 위한 스택 문제 풀이">
+      <created>1639465479716</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1639465479716</updated>
+    </task>
+    <task id="LOCAL-00016" summary="자료구조를 위한 스택 문제 풀이 2">
+      <created>1639469801507</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1639469801507</updated>
+    </task>
+    <task id="LOCAL-00017" summary="자료구조를 위한 스택 문제 풀이 1, 2(9012번) 풀이 수정 및 설명 추가&#10;큐 문제 풀이 1, 2 (10845번, 1158번) 문제 해결 및 풀이 작성">
+      <created>1639555364162</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1639555364162</updated>
+    </task>
+    <task id="LOCAL-00018" summary="자료구조를 위한 정렬 문제 풀이(1838번) 풀이 및 정렬 알고리즘 구현">
+      <created>1640106713338</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1640106713338</updated>
+    </task>
+    <task id="LOCAL-00019" summary="자료구조를 위한 정렬 문제 풀이(1838번) 해설 추가 및 정렬 알고리즘 설명 추가">
+      <created>1640109043646</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1640109043646</updated>
+    </task>
+    <task id="LOCAL-00020" summary="자료구조를 위한 정렬 문제 풀이(1838번) 해설 수정">
+      <created>1640138358786</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1640138358786</updated>
+    </task>
+    <task id="LOCAL-00021" summary="자료구조를 위한 트리 순회 문제 풀이(1991번) 해설 수정">
+      <created>1640967566355</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1640967566355</updated>
+    </task>
+    <task id="LOCAL-00022" summary="자료구조를 위한 트리 순회 문제 풀이 2 (1991번) 해설 수정">
+      <created>1641108332799</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1641108332799</updated>
+    </task>
+    <task id="LOCAL-00023" summary="자료구조를 위한 트리 순회 문제 풀이 2 (4256번) 해설 추가 및 수정">
+      <created>1641109582969</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1641109582969</updated>
+    </task>
+    <task id="LOCAL-00024" summary="자료구조를 위한 힙 문제 풀이 1 (1927번)">
+      <created>1641120666078</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1641120666078</updated>
+    </task>
+    <task id="LOCAL-00025" summary="자료구조를 위한 힙 문제 풀이 2 (2220번)">
+      <created>1641135726711</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1641135726711</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +321,21 @@
     <MESSAGE value="8월 18일 코딩스터디&#10;미해결이었던 동전 뒤집기 해결(비트마스크 미사용)" />
     <MESSAGE value="코딩 스터디가 취업 준비로 1주 미뤄지면서 올려두지 않은 코드들 커밋" />
     <MESSAGE value="코딩 스터디가 카카오 코테로 1주 미뤄지면서 올려두지 않은 코드들 커밋 (+ 긴장을 풀기위해서 실패한 백준 문제 풀이)" />
-    <option name="LAST_COMMIT_MESSAGE" value="코딩 스터디가 카카오 코테로 1주 미뤄지면서 올려두지 않은 코드들 커밋 (+ 긴장을 풀기위해서 실패한 백준 문제 풀이)" />
+    <MESSAGE value="2021년 11월 2일 화요일 코딩스터디&#10;백준의 1062번-가르침 과 17298번 오큰수 해결" />
+    <MESSAGE value="2021년 11월 16일 화요일 코딩스터디&#10;백준의 19942 다이어트 해결&#10;main에 관련된 오류로 인하여 함수명 대폭 변경" />
+    <MESSAGE value="2021년 11월 16일 화요일 코딩스터디&#10;백준의 19942 다이어트 해설 추가 및 사전순 비교 방법 추가" />
+    <MESSAGE value="2021년 12월 1일 화요일&#10;13460 구슬 탈출 2 문제 해결 및 풀이 정리" />
+    <MESSAGE value="자료구조를 위한 스택 문제 풀이" />
+    <MESSAGE value="자료구조를 위한 스택 문제 풀이 2" />
+    <MESSAGE value="자료구조를 위한 스택 문제 풀이 1, 2(9012번) 풀이 수정 및 설명 추가&#10;큐 문제 풀이 1, 2 (10845번, 1158번) 문제 해결 및 풀이 작성" />
+    <MESSAGE value="자료구조를 위한 정렬 문제 풀이(1838번) 풀이 및 정렬 알고리즘 구현" />
+    <MESSAGE value="자료구조를 위한 정렬 문제 풀이(1838번) 해설 추가 및 정렬 알고리즘 설명 추가" />
+    <MESSAGE value="자료구조를 위한 정렬 문제 풀이(1838번) 해설 수정" />
+    <MESSAGE value="자료구조를 위한 트리 순회 문제 풀이(1991번) 해설 수정" />
+    <MESSAGE value="자료구조를 위한 트리 순회 문제 풀이 2 (1991번) 해설 수정" />
+    <MESSAGE value="자료구조를 위한 트리 순회 문제 풀이 2 (4256번) 해설 추가 및 수정" />
+    <MESSAGE value="자료구조를 위한 힙 문제 풀이 1 (1927번)" />
+    <MESSAGE value="자료구조를 위한 힙 문제 풀이 2 (2220번)" />
+    <option name="LAST_COMMIT_MESSAGE" value="자료구조를 위한 힙 문제 풀이 2 (2220번)" />
   </component>
 </project>

@@ -21,7 +21,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.*
 
-fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main2220() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val n = readLine().toInt()
     val maxHeap = PriorityQueue<Int>(n, reverseOrder())
     for (i in 2..n) maxHeap.add(i)

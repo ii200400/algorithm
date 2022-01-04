@@ -16,7 +16,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import kotlin.math.min
 
-fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main1838() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val N = readLine().toInt()
     val A = readLine().split(" ").mapIndexed { i, it -> arrayOf(it.toInt(), i) }.toTypedArray()
 

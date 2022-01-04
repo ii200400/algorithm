@@ -44,7 +44,7 @@ class Solution4 {
     }
 }
 
-fun main() {
-    println(Solution4().solution(5, intArrayOf(2,1,1,1,0,0,0,0,0,0,0)).contentToString())
-    println(Solution4().solution(5, intArrayOf(4,1,0,0,0,0,0,0,0,0,0)).contentToString())
-}
+//fun main() {
+//    println(Solution4().solution(5, intArrayOf(2,1,1,1,0,0,0,0,0,0,0)).contentToString())
+//    println(Solution4().solution(5, intArrayOf(4,1,0,0,0,0,0,0,0,0,0)).contentToString())
+//}

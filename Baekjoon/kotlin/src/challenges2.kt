@@ -44,13 +44,13 @@ class Solution2 {
     }
 }
 
-fun main() {
-    println(Solution2().solution(437674, 3))
-    println(Solution2().solution(110011, 10))
-    println(Solution2().solution(1, 3))
-    println(Solution2().solution(2, 3))
-    println(Solution2().solution(3, 3))
-    println(Solution2().solution(3, 4))
-    println(Solution2().solution(4, 5))
-    println(Solution2().solution(6, 7))
-}
+//fun main() {
+//    println(Solution2().solution(437674, 3))
+//    println(Solution2().solution(110011, 10))
+//    println(Solution2().solution(1, 3))
+//    println(Solution2().solution(2, 3))
+//    println(Solution2().solution(3, 3))
+//    println(Solution2().solution(3, 4))
+//    println(Solution2().solution(4, 5))
+//    println(Solution2().solution(6, 7))
+//}

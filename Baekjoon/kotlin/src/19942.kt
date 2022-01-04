@@ -103,7 +103,3 @@ fun main19942() = with(BufferedReader(InputStreamReader(System.`in`))) {
         if (selectedFoods[idx]) print("${idx+1} ")
     }
 }
-
-fun main() {
-    main19942()
-}

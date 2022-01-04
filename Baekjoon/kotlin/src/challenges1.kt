@@ -31,14 +31,14 @@ class Solution1 {
     }
 }
 
-fun main(){
-    var idList = arrayOf("muzi", "frodo", "apeach", "neo")
-    var report = arrayOf("muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi")
-    var k = 2
-    println(Solution1().solution(idList, report, k).contentToString())
-
-    idList = arrayOf("con", "ryan")
-    report = arrayOf("ryan con", "ryan con", "ryan con", "ryan con")
-    k = 3
-    println(Solution1().solution(idList, report, k).contentToString())
-}
+//fun main(){
+//    var idList = arrayOf("muzi", "frodo", "apeach", "neo")
+//    var report = arrayOf("muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi")
+//    var k = 2
+//    println(Solution1().solution(idList, report, k).contentToString())
+//
+//    idList = arrayOf("con", "ryan")
+//    report = arrayOf("ryan con", "ryan con", "ryan con", "ryan con")
+//    k = 3
+//    println(Solution1().solution(idList, report, k).contentToString())
+//}

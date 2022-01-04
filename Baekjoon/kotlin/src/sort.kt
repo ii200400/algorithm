@@ -123,9 +123,9 @@ class Sort{
     }
 }
 
-fun main(){
-    val a = arrayOf(3,2,1,3,2,1,3,2,1)
-    println(a.contentToString())
-    Sort().quickSort(a, 0, a.size-1)
-    println(a.contentToString())
-}
+//fun main(){
+//    val a = arrayOf(3,2,1,3,2,1,3,2,1)
+//    println(a.contentToString())
+//    Sort().quickSort(a, 0, a.size-1)
+//    println(a.contentToString())
+//}
