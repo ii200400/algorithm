@@ -1,3 +1,40 @@
+## 2022년 01월 06일
+
+백준의 '단계별로 풀어보기' 카테고리에서 순서대로 문제를 살펴보면서 알고리즘을 살펴보고 재미있어보이는 문제를 해결하고있다.   
+코딩테스트를 위해서 푸는 것이기도 하지만 단순히 코딩을 자주 하기 위함이기도 하다.
+
+#### 백준
+
+1. [에라토스테네스의 체](https://www.acmicpc.net/problem/2960)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/Baekjoon/kotlin/src/2960.kt)
+	+ [백준 공유 링크](http://boj.kr/a8c2b2b4253342f5a3babd997c70ccaf)
+	+ 에라토스테네스의 체를 구현하고 싶어 찾아서 푼 문제
+
+1. [셀프 넘버](https://www.acmicpc.net/problem/4373)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/Baekjoon/kotlin/src/4673.kt)
+	+ [백준 공유 링크](http://boj.kr/778f1552aa2d4f61898317db3ad640e5)
+	+ 에라토스테네스의 체와 비슷하게 풀었다.
+
+1. [한수](https://www.acmicpc.net/problem/1065)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/Baekjoon/kotlin/src/1065.kt)
+	+ [백준 공유 링크](http://boj.kr/9bf15ba49d754c5f9b6c73755e861e8b)
+	+ 간단한 구현문제
+
+1. [손익분기점](https://www.acmicpc.net/problem/1712)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/Baekjoon/kotlin/src/1712.kt)
+	+ [백준 공유 링크](http://boj.kr/160b1a84d7e64b15a1d969237161d4ee)
+	+ 단순한 계산문제로 보이는데 정답비율이 신경쓰여 풀어보았다, 하지만 쉬운 문제였다.
+
+1. [설탕 배달](https://www.acmicpc.net/problem/2839)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/Baekjoon/kotlin/src/2839.kt)
+	+ [백준 공유 링크](http://boj.kr/623e8c517479488cb6b5b6beae20c048)
+	+ 수학 계산 공식을 찾아 내는 문제, 개인적으로 알고리즘 유형을 잘 파악하지 못하는 유형이라 풀었다.
+
+1. [Fly me to the Alpha Centauri](https://www.acmicpc.net/problem/1011)
+	+ [풀이](https://github.com/ii200400/algorithm/blob/master/Baekjoon/kotlin/src/1011.kt)
+	+ [백준 공유 링크](http://boj.kr/569894a661a547a18c7d3e0f59ed8c75)
+	+ 위의 문제와 같이 수학 계산 공식을 찾아 내는 문제이다, 더 식이 복잡하다.
+
 ## 2021년 12월 01일
 
 #### 백준
