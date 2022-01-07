@@ -24,9 +24,10 @@ fun main15829() = with(BufferedReader(InputStreamReader(System.`in`))) {
     readLine()
     val str = readLine()
 
+    // 나머지 연산을 진행하는 수가 커서 Long 자료형 사용
     var sum = 0L
     var remainOf31 = 1L
-    for (char in str) {
+    for (char in str) { // 문자열의 각 자리마다 해시 값 도출을 위한 계산 진행
         sum = (remainOf31 * (char.toInt()-96) + sum) % 1234567891
         remainOf31 = (remainOf31 * 31) % 1234567891
     }
