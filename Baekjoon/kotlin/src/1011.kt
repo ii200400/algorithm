@@ -9,6 +9,9 @@
 // 질문검색에서 제곱근을 사용하는 방법도 있다는 글을 보고 코드는 보지 않고 풀이를 구현해보았다.
 // 해당 풀이는 참고 질문 링크를 참고하자.
 
+// dis : 거리를 저장하는 변수
+// closestNum : dis의 제곱근의 몫
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import kotlin.math.sqrt
