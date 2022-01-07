@@ -1,4 +1,4 @@
-// 문제 링크 : https://www.acmicpc.net/problem/4373
+// 문제 링크 : https://www.acmicpc.net/problem/4673
 // 제출 공유 링크 : http://boj.kr/778f1552aa2d4f61898317db3ad640e5
 
 // 백준의 '단계별로 풀어보기' 카테고리의 6단계 '함수'의 2번 문제

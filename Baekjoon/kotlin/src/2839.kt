@@ -1,4 +1,4 @@
-// 문제 링크 : https://www.acmicpc.net/problem/1065
+// 문제 링크 : https://www.acmicpc.net/problem/2839
 // 제출 공유 링크 : http://boj.kr/623e8c517479488cb6b5b6beae20c048
 
 // 백준의 '단계별로 풀어보기' 카테고리의 8단계 '기본 수학 1' 7번 문제
