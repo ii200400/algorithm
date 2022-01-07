@@ -10,7 +10,7 @@
 // 해당 풀이는 참고 질문 링크를 참고하자.
 
 // dis : 거리를 저장하는 변수
-// closestNum : dis의 제곱근의 몫
+// closestNum : dis의 제곱근의 소수점 윗 부분
 
 import java.io.BufferedReader
 import java.io.InputStreamReader
@@ -21,6 +21,7 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
         val (x, y) = readLine().split(" ").map { it.toInt() }
         val dis = y-x
         val closestNum = sqrt(dis.toDouble()).toInt()
+        // closestNum을 기준으로 나올 수 있는 최소한의 장치 작동 횟수는 3가지이므로 아래와 같이 구현
         println(
             when {
                 dis == closestNum*closestNum -> closestNum*2 - 1
