@@ -8,24 +8,27 @@
 // sum : 부분수열의 합
 // numbers : 수열
 
+package com.baekjoon.problem
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
-fun main1182() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     // 변수 초기화
     val (n, sum) = readLine().split(" ").map { it.toInt() }
     val numbers = readLine().split(" ").map { it.toInt() }
 
     var answer = 0
+
     // 부분수열의 합만 구하여 조건이 충족되면 answer+1 을 진행하는 함수
-    fun search(subSum: Int, idx: Int){
-        if (idx == n-1) {
+    fun search(subSum: Int, idx: Int) {
+        if (idx == n - 1) {
             if (subSum + numbers[idx] == sum) answer += 1
             if (subSum == sum) answer += 1
             return
         }
-        search(subSum + numbers[idx], idx+1)
-        search(subSum, idx+1)
+        search(subSum + numbers[idx], idx + 1)
+        search(subSum, idx + 1)
     }
     search(0, 0)
 

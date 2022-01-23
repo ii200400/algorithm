@@ -7,10 +7,12 @@
 // r, c : 맵의 가로, 세로 길이
 // map : 알파뱃이 부여된 맵
 
+package com.baekjoon.problem
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
-fun main1987() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val (r, c) = readLine().split(" ").map { it.toInt() }
     val map = Array(r){ readLine() }
     var answer = 0

@@ -8,10 +8,12 @@
 // 문제를 해결하고나서 다른 사람의 풀이를 보았는데 구조체로 한 것을 빼고 본인과 비슷하게 푼 사람이 많아서
 // 다 비슷하게 푸는구나 싶었다.
 
+package com.baekjoon.problem
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
-fun main1991() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val N = readLine().toInt()
     val tree = Array(N){ arrayOf('.','.') }
     for (i in 0 until N) {

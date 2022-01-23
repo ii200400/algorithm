@@ -15,11 +15,13 @@
 // limit : 코틀린에서는 Int값을 넘으면 에러가 생기므로 만들어준 변수
 // number, count : 힙(heap)에서 나온 소수의 곱 중, count 번째 최소 값
 
+package com.baekjoon.problem
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.*
 
-fun main2014() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val (_, n) = readLine().split(" ").map { it.toInt() }
     val primes = readLine().split(" ").map { it.toInt() }
     val heap = PriorityQueue(primes)

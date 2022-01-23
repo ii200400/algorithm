@@ -17,13 +17,15 @@
 // rootList : nodes 중에서 루트노드들의 인덱스
 // leaves : 리프노드 (출력값)
 
+package com.baekjoon.problem
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.*
 
-fun main1068() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     // 노드 데이터 클래스
-    data class Node (
+    data class Node(
         val childrenIdx: LinkedList<Int> = LinkedList<Int>()
     )
 
@@ -36,7 +38,7 @@ fun main1068() = with(BufferedReader(InputStreamReader(System.`in`))) {
     var leaves = 0
 
     // 삭제되어 사라지는 노드를 제외하고 정보를 저장
-    for (idx in parentIndexes.indices){
+    for (idx in parentIndexes.indices) {
         if (idx == deletedNode || parentIndexes[idx] == deletedNode) continue
         if (parentIndexes[idx] == -1) {
             rootList.add(idx)
@@ -45,7 +47,7 @@ fun main1068() = with(BufferedReader(InputStreamReader(System.`in`))) {
         nodes[parentIndexes[idx]].childrenIdx.add(idx)
     }
 
-    fun searchChild(idx: Int){
+    fun searchChild(idx: Int) {
         // 리프노드라면 leaves + 1
         if (nodes[idx].childrenIdx.isEmpty()) leaves += 1
         else {

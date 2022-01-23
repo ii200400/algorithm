@@ -3,11 +3,13 @@
 
 // 단순한 힙 구현 문제
 
+package com.baekjoon.problem
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.*
 
-fun main1927() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val minHeap = PriorityQueue<Int>() // PriorityQueue<Int>(reverseOrder()) 를 사용하면 maxHeap
 
     for (i in 0 until readLine().toInt()){

@@ -7,11 +7,13 @@
 // count : 비교 횟수
 // priorityQueue : 숫자 카드 묶음들을 최소힙방식으로 저장
 
+package com.baekjoon.problem
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.*
 
-fun main1715() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     // 변수 초기화
     var count = 0
     val priorityQueue = PriorityQueue<Int>()
@@ -21,7 +23,7 @@ fun main1715() = with(BufferedReader(InputStreamReader(System.`in`))) {
 
     // 최소힙에서 가장 작은 카드 묶음 2개를 고르고 합친 후 다시 넣어주는 과정을
     // 카드 묶음이 1개가 될 때까지 반복
-    while (priorityQueue.size != 1){
+    while (priorityQueue.size != 1) {
         val cardSet1 = priorityQueue.poll()
         val cardSet2 = priorityQueue.poll()
         val newCardSet = cardSet1 + cardSet2

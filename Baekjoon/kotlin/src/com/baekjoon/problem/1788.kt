@@ -5,11 +5,13 @@
 // ex) F(-2)=-1, F(2)=1, F(-3)=2, F(3)=2 ...
 // 위의 사실을 토대로 답을 구할 예정이다.
 
+package com.baekjoon.problem
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import kotlin.math.abs
 
-fun main1788() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     var n = readLine().toInt()
 
     // n=0일 때, 예외처리를 넣은 첫째줄 출력

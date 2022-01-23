@@ -17,11 +17,13 @@
 // 코틀린에서 제공하는 우선순위 큐 자료형을 활용하여 2~n을 순서대로 삽입하고 가장 마지막에 1을 넣어준다.
 // 본인의 경우 1을 넣어주는 것을 대신해 가장 마지막에 " 1" 문자열을 출력하는 것으로 대체하였다.
 
+package com.baekjoon.problem
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.*
 
-fun main2220() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val n = readLine().toInt()
     val maxHeap = PriorityQueue<Int>(n, reverseOrder())
     for (i in 2..n) maxHeap.add(i)

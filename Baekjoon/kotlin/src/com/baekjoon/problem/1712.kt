@@ -5,6 +5,8 @@
 // 쉬워보이는데 비하여 그렇지 않은 정답비율이 신경쓰여 풀어보았다.
 // 음.. 모르겠다. 아직 안 익숙하신 분들이 int 대신 long 사용하는 것을 잊으셨나..?
 
+package com.baekjoon.problem
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 

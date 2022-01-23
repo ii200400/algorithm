@@ -8,10 +8,12 @@
 // diff : 한수에서 등차수열의 차이를 저장하는 변수
 // tempNum : 한수인지 판단할 때 수를 잠시 저장하는 임의의 변수
 
+package com.baekjoon.problem
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
-fun main1065() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
 
     // 한수인지 확인하는 함수
     fun isHanSu(num: Int): Boolean{

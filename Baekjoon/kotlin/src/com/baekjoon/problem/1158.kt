@@ -15,11 +15,13 @@
 // 큐를 활용할 수 밖에 없었을 텐데..
 // 9012번 문제도 그렇고 큐에 저장된 값을 활용하지 않아 아쉬운 문제였다.
 
+package com.baekjoon.problem
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.*
 
-fun main1158() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     // 링크드 리스트와 수학 계산으로 풀이
     fun useLinkedList(n: Int, k: Int) {
         val linkedList = LinkedList(List(n) { it + 1 })
@@ -36,12 +38,12 @@ fun main1158() = with(BufferedReader(InputStreamReader(System.`in`))) {
     }
 
     // 큐를 활용하여 풀이
-    fun useQueue(n: Int, k: Int){
+    fun useQueue(n: Int, k: Int) {
         val queue: Queue<Int> = LinkedList(List(n) { it + 1 })
         val answer = Array(n) { 0 }
 
         while (queue.isNotEmpty()) {
-            for (i in 0 until ((k-1) % queue.size)) queue.offer(queue.poll())
+            for (i in 0 until ((k - 1) % queue.size)) queue.offer(queue.poll())
             answer[n - queue.size] = queue.poll()
         }
 

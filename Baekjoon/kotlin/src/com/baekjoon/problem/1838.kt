@@ -12,11 +12,13 @@
 // 이때 각 숫자가 이동할 시, 왼쪽에서 오른쪽으로는 한 번에 움직일 수도 있지만 오른쪽에서 왼쪽으로 움직이는 것은 한칸밖에 움직이지 못한다는 점을 착안해서 풀면된다.
 // 정렬의 특징을 이해하지 못했다면 풀지 못하는 좋은 문제라고 생각한다.
 
+package com.baekjoon.problem
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import kotlin.math.min
 
-fun main1838() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val N = readLine().toInt()
     val A = readLine().split(" ").mapIndexed { i, it -> arrayOf(it.toInt(), i) }.toTypedArray()
 

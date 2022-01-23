@@ -4,9 +4,11 @@
 // kolin이 python 처럼 int범위를 벗어나면 자동으로 long으로 바꿔주는 줄 알고 엄청 해맷다.
 // 33번째 줄의 .toLong()이 없어서 오버플로우가 나면서 계속 틀렸었다.
 
+package com.baekjoon.problem
+
 import java.util.*
 
-fun main2143(args: Array<String>) = with(Scanner(System.`in`)) {
+fun main(args: Array<String>) = with(Scanner(System.`in`)) {
     val t = nextInt()
     val a = Array(nextInt()) { nextInt() }
     val b = Array(nextInt()) { nextInt() }

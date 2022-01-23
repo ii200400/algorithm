@@ -14,11 +14,13 @@
 // leftEditor : 커서의 왼쪽 문자들 (링크드리스트)
 // rightEditor : 커서의 오른쪽 문자들 (링크드리스트)
 
+package com.baekjoon.problem
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.*
 
-fun main1406() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     // 변수 초기화
     val string = readLine()
     val leftEditor = LinkedList<Char>()
@@ -27,9 +29,9 @@ fun main1406() = with(BufferedReader(InputStreamReader(System.`in`))) {
         leftEditor.add(char)
 
     // 편집기 명령어 수행
-   for (i in 0 until readLine().toInt()){
+    for (i in 0 until readLine().toInt()) {
         val command = readLine()
-        when(command[0]){
+        when (command[0]) {
             'L' -> {
                 if (leftEditor.isEmpty()) continue
                 val char = leftEditor.removeLast()
@@ -51,7 +53,6 @@ fun main1406() = with(BufferedReader(InputStreamReader(System.`in`))) {
     }
     println(leftEditor.joinToString("") + rightEditor.joinToString(""))
 }
-
 // 시간초과로 통과가 되지 못한 코드
 // 링크드리스트와 커서의 위치를 저장하는 변수만으로 풀었다.
 // 삽입, 삭제의 시간이 생각보다 오래 걸린다는 것을 알았다.
@@ -87,3 +88,4 @@ fun main1406() = with(BufferedReader(InputStreamReader(System.`in`))) {
 //    }
 //    println(editor.joinToString(""))
 //}
+

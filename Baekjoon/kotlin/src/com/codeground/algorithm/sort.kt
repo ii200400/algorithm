@@ -1,3 +1,14 @@
+// 정렬 알고리즘을 구현
+
+package com.codeground.algorithm
+
+fun main(){
+    val a = arrayOf(3,2,1,3,2,1,3,2,1)
+    println(a.contentToString())
+    Sort().quickSort(a, 0, a.size-1)
+    println(a.contentToString())
+}
+
 class Sort{
     fun bubbleSort(A: Array<Int>){
         var flag = 0
@@ -122,10 +133,3 @@ class Sort{
         if (end - right > 2) quickSort(A, right+1, end)
     }
 }
-
-//fun main(){
-//    val a = arrayOf(3,2,1,3,2,1,3,2,1)
-//    println(a.contentToString())
-//    Sort().quickSort(a, 0, a.size-1)
-//    println(a.contentToString())
-//}

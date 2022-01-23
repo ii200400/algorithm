@@ -10,12 +10,14 @@
 // isBlank : 별을 찍어줄지 공백을 찍어줄지 정하는 변수
 // divTo : 항상 k가 정수인 3^k 값을 가지는 변수, 가로/세로 인덱스가 조건에 부합하는지 확인한다.
 
+package com.baekjoon.problem
+
 import java.io.BufferedReader
 import java.io.BufferedWriter
 import java.io.InputStreamReader
 import java.io.OutputStreamWriter
 
-fun main2447() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     with(BufferedWriter(OutputStreamWriter(System.out))) {
         val n = readLine().toInt()
 

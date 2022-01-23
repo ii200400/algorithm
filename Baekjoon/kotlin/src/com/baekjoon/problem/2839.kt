@@ -9,6 +9,8 @@
 // 손으로 무개 20정도 까지 풀어보면 5개마다 반복되는 패턴을 볼 수 있다.
 // 해당 패턴을 토대로 총 얼마의 봉지가 필요한지 쉽게 유추하여 값을 출력할 수 있다.
 
+package com.baekjoon.problem
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 

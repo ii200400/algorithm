@@ -2,15 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e913112-57ea-4c4e-bab9-919ddbd40775" name="Default Changelist" comment="자료구조를 위한 해시 문제 풀이 1 (15829번)">
-      <change afterPath="$PROJECT_DIR$/src/1011.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/1065.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/1712.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/2839.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/2960.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/4673.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/1011.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin/ACKt$main$1$nums$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin/ACKt$main$1$nums$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin/ACKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin/ACKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin/A_BKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin/A_BKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin/META-INF/kotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/15829.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/15829.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin/_7562Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin/_7562Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1011.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1062.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/1062.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1065.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/1065.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1068.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/1068.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10828.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/10828.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10845.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/10845.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1158.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/1158.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1182.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/1182.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1197.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/1197.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1285.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/1285.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/13244.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/13244.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/13460.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/13460.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1406.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/1406.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/14500.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/14500.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/15662.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/15662.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/15829.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/15829.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/15988.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/15988.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1712.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/1712.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1715.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/1715.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/17298.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/17298.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1788.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/1788.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1838.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/1838.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1927.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/1927.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1987.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/1987.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1991.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/1991.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/19942.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/19942.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2014.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/2014.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2143.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/2143.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2220.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/2220.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2447.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/2447.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2749.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/2749.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2839.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/2839.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2960.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/2960.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4256.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/4256.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4673.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/4673.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7562.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/7562.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7569.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/7569.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7576.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/7576.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9012.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/9012.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9996.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/9996.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A+B.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputOutputTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/challenges1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingTest/kakao/2022_recruitment_1_problem1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/challenges2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingTest/kakao/2022_recruitment_1_problem2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/challenges3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingTest/kakao/2022_recruitment_1_problem3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/challenges4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingTest/kakao/2022_recruitment_1_problem4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codeground/algorithm/sort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programmers/KotlinTutorial/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +66,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -37,6 +83,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1uoRA0RM8xFVchtdnh94DyDbWmY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,7 +102,28 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Kotlin._1011Kt">
+  <component name="RunManager" selected="Kotlin._1065Kt">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_1011Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.baekjoon.problem._1011Kt" />
+      <module name="kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_1011Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_1011Kt" />
       <module name="kotlin" />
@@ -62,47 +132,26 @@
       </method>
     </configuration>
     <configuration name="_1065Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1065Kt" />
-      <module name="kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_1712Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1712Kt" />
-      <module name="kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_2839Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2839Kt" />
-      <module name="kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_4673Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_4673Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.baekjoon.problem._1065Kt" />
       <module name="kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin._4673Kt" />
-      <item itemvalue="Kotlin._1065Kt" />
-      <item itemvalue="Kotlin._1712Kt" />
-      <item itemvalue="Kotlin._2839Kt" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="Kotlin._1011Kt" />
+      <item itemvalue="Kotlin._1011Kt (1)" />
+      <item itemvalue="Kotlin._1065Kt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin._1011Kt" />
-        <item itemvalue="Kotlin._2839Kt" />
-        <item itemvalue="Kotlin._1712Kt" />
         <item itemvalue="Kotlin._1065Kt" />
-        <item itemvalue="Kotlin._4673Kt" />
+        <item itemvalue="Kotlin._1011Kt (1)" />
+        <item itemvalue="Kotlin._1011Kt" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +359,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11월 7일 코딩스터디 (코틀린 시작)" />

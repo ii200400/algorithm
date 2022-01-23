@@ -6,11 +6,13 @@
 // 글자들을 선택하는 방법은 브루트 포스로 모든 경우를 살피고
 // 가장 많은 단어를 배우는 경우 answer 변수에 저장하여 풀었다.
 
+package com.baekjoon.problem
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import kotlin.math.max
 
-fun main1062() = with(BufferedReader(InputStreamReader(System.`in`))) {
+fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     var (n, k) = readLine().split(" ").map { it.toInt() }
     // acint - 5글자는 필수적이므로
     if (k < 5) {
@@ -46,7 +48,7 @@ fun main1062() = with(BufferedReader(InputStreamReader(System.`in`))) {
             for (wordSet in wordsSet){
                 if (learnSet.containsAll(wordSet)) count += 1
             }
-            
+
             answer = max(answer, count)
             return
         } else if (idx == 26) return
