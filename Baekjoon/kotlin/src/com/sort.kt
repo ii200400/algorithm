@@ -1,6 +1,6 @@
 // 정렬 알고리즘을 구현
 
-package com.codeground.algorithm
+package com
 
 fun main(){
     val a = arrayOf(3,2,1,3,2,1,3,2,1)

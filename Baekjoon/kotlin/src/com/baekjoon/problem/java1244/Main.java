@@ -39,9 +39,10 @@ public class Main {
             }
         }
 
+        // 결과값 출력
         for (int i = 1; i<n+1; i++) {
             System.out.print(switchs[i]? "1 " : "0 ");
-            if (i%20 == 0)
+            if (i%20 == 0) // 20개씩 끊어서 출력하라고 했다.
                 System.out.println();
         }
     }

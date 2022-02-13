@@ -35,13 +35,15 @@ public class Main {
             stack.add(new int[] {height, i} );
         }
 
+        // 스택의 남은 데이터 처리
         while(!stack.isEmpty()){
             int[] info = stack.pop();
             receive[info[1]] = -1;
         }
 
+        // 결과 출력
         for (int i = 0; i<n; i++) {
-            System.out.print((receive[i]+1)+" ");
+            System.out.print((receive[i]+1)+" "); // 타워가 1부터 시작하기 때문에 +1
         }
     }
 }
