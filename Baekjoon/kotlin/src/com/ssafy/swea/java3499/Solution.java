@@ -1,5 +1,7 @@
 // 문제 링크 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWGsRbk6AQIDFAVW
 
+// 그냥 번갈아서 출력하고 홀수이면 남은 문자열 출력하는.. 그런..? 코드
+
 package com.ssafy.swea.java3499;
 
 import java.io.BufferedReader;
@@ -20,7 +22,7 @@ public class Solution
         {
             // 초기화
             br.readLine(); // 카드 수 생략
-            String[] cards = "asdf".split(" "); // 카드 배열
+            String[] cards = br.readLine().split(" "); // 카드 배열
             int secondCardSetIdx = (cards.length+1)/2; // 두번째 카드 세트의 시작 인덱스
 
             // 출력
@@ -28,12 +30,14 @@ public class Solution
 
             // 셔플한 것 처럼 출력 (실재로 셔플은 안함)
             for (int i = 0; i<cards.length/2; i++)
+                // 첫번째 카드 세트의 i번째, 두번째 카드 세트의 i번째 출력
                 wr.write(cards[i] + " " + cards[secondCardSetIdx+i] + " ");
 
             // 홀수인 경우 먼저 놓는 쪽에 한 장이 더 들어가게 해야 하므로
-            if (cards.length%2 == 1)
+            if (cards.length % 2 == 1)
                 wr.write(cards[cards.length/2]);
 
+            // 한줄 띄어준다.
             wr.newLine();
         }
 

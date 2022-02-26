@@ -1,5 +1,7 @@
 // 문제 링크 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PzOCKAigDFAUq
 
+// 단순 완전 탐색문제 아마 4중 for문이 되겠지..
+
 package com.ssafy.swea.java2001;
 
 import java.io.BufferedReader;
@@ -11,21 +13,25 @@ public class Solution
     public static void main(String args[]) throws Exception
     {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int T;
-        T = Integer.parseInt(br.readLine());
+        int T = Integer.parseInt(br.readLine());
 
+        // 테스트 케이스만큽 반복
         for(int test_case = 1; test_case <= T; test_case++)
         {
             // 초기화
             StringTokenizer st = new StringTokenizer(br.readLine());
-            int mapSize = Integer.parseInt(st.nextToken()), netSize = Integer.parseInt(st.nextToken());
-            int[][] map = new int[mapSize][mapSize];
+            
+            int mapSize = Integer.parseInt(st.nextToken()); // 공간 크기
+            int netSize = Integer.parseInt(st.nextToken()); // 파리채 크기
+            int[][] map = new int[mapSize][mapSize];    // 공간 배열
+            // 공간 초기화
             for(int i = 0; i<mapSize; i++) {
                 st = new StringTokenizer(br.readLine());
                 for(int j = 0; j<mapSize; j++) {
                     map[i][j] = Integer.parseInt(st.nextToken());
                 }
             }
+            // 디버깅용 출력
 //			System.out.printf(Arrays.deepToString(map));
 
             // 각 위치마다

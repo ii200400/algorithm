@@ -1,5 +1,10 @@
 // 문제 링크 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PobmqAPoDFAUq
 
+// 아랰ㅋㅋㅋ 방향 전환 하는 거 꼭 보잨ㅋㅋㅋ
+// 이게 이렇게 축약이 된다, 사실 본인이 알아낸 것은 아니고
+// 7년 전에 디미고 친구가 짯던 코드가 가물가물 기억나서 축약이 된다는 것을 기억하고 있었다.
+// 그 때 당시에 그 친구가 본인의 영혼을 담아서 짧게 만들었다고 했는데, 영혼 잘 받았다 친구야~
+
 package com.ssafy.swea.java1954;
 
 import java.util.Scanner;
@@ -22,7 +27,7 @@ class Solution
             
             int nr = 0, nc = 1;     // r의 변화값, c의 변화값
             int cnt = 1;            // 달팽이 배열 입력값
-            int max = (int) Math.pow(n, 2); // 조건값
+            int max = (int) Math.pow(n, 2); // 조건값 그냥.. n*n하면 된다;
             
             // 달팽이 만들기 - 입력값이 조건값보다 작을동안 r과 c를 달팽이 모양으로 옮긴다.
             for(int r = 0, c = 0; cnt <= max; r += nr, c += nc){
@@ -45,14 +50,20 @@ class Solution
 //                        nr = 0;
 //                        nc = 1;
 //                    }
+
                     // 어..? 축약이 된다. 기쁘다!
-                    if (nr == 0) {
-                        nr = nc;
-                        nc = 0;
-                    } else {
-                        nc = -nr;
-                        nr = 0;
-                    }
+//                    if (nr == 0) {
+//                        nr = nc;
+//                        nc = 0;
+//                    } else {
+//                        nc = -nr;
+//                        nr = 0;
+//                    }
+
+                    // 어.. 또 축약된닼ㅋㅋㅋ
+                    int temp = nr;
+                    nr = nc;
+                    nc = -temp;
                 }
             }
 
