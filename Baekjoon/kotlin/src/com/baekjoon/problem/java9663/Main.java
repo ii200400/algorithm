@@ -19,10 +19,11 @@ public class Main {
 
     Main(){
         Scanner sc = new Scanner(System.in);
-        n = sc.nextInt();
-        col = new int[n];
-        answer = 0;
+        n = sc.nextInt();   // 체스판 크기
+        col = new int[n];   // 해당 열에 놓인 퀸 존재 여부
+        answer = 0; // n크기의 체스판에 n개의 퀸을 놓을 수 있는 경우의 수
 
+        // 퀸 놓기 ()
         queen(0);
 
         System.out.println(answer);

@@ -4,7 +4,6 @@
 // 정점번호가 낮은 것 부터 탐색하라는 조건으로
 // 인접행렬이 더 구현하기 편해서 인접행렬로 구현할 예정이다.
 
-
 package com.baekjoon.problem.java1260;
 
 import java.io.BufferedReader;

@@ -31,6 +31,7 @@ public class Main {
     static int[][] materials;
     static boolean[] isSelected;
 
+    // 부분집합 메서드
     static void dfs(int cnt, int sour, int bit){
         if (cnt == n){
             // 단순히 물을 빼기 위함.. 물은 요리가 아니니까..

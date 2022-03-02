@@ -52,9 +52,14 @@ public class Main {
         answer = 0;
 
         // 현재 위치도 지나는 칸수에 포함되며 벽으로 인하여 1,1 에서 시작
+
+        // 방법1
 //        dfs(1, 1, 1);
+
+        // 방법2
 //        dfsWithBit(1, 1, 1, 1 << map[1][1] - 'A');
 
+        // 방법3
         visit = new int[R+1][C+1];
         dfsWithVisit(1, 1, 1, 1 << map[1][1] - 'A');
 
@@ -67,7 +72,7 @@ public class Main {
 
     // 방법 1
     // 말이 어디까지 움직일지 dfs를 통해 이동시켜본다.
-    // 이동 횟수, 가로 칸수, 세로 칸수, 이미 지난 알파벳인지 확인 변수 (비트마스킹)
+    // 이동 횟수, 가로 칸수, 세로 칸수, 이미 지난 알파벳인지 확인 변수
     static boolean dfs(int cnt, int r, int c){
         // 진행할 때마다 answer값 갱신을 하고
         answer = Math.max(answer, cnt);

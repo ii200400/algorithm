@@ -1,6 +1,10 @@
 // 문제 링크 : https://www.acmicpc.net/problem/10026
 // 제출 공유 링크 : http://boj.kr/3f0fbd26355e4a72ba2428ab283ee6f6
 
+// 이차원 배열을 2개 만들거나 dfs를 두 종류를 만드는 경우가 일반적.
+// 이지만 해시 셋을 사용하면 배열아니 dfs를 2개 만들지 않아도 된다.
+// 하지만 그냥 배열 2개로 사용해서 풀었다.
+
 package com.baekjoon.problem.java10026;
 
 import java.util.Scanner;

@@ -1,96 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e913112-57ea-4c4e-bab9-919ddbd40775" name="Default Changelist" comment=".. 일주일 만에 또 커밋..&#10;뭐이리 많이 풀었지..?">
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java10026/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java10158/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java10163/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java1074/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java10815/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java11399/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java11723/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java1260/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java13300/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java14696/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java15683/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java15686/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java1592/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java16236/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java17144/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java17413/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java1753/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java1931/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java1987/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2292/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2309/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2477/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2527/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2567/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2606/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2644/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2798/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2810/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2839/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2851/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2941/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2961/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2999/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java3040/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java3052/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java3109/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java3985/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java4963/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java7576/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java8320/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java8958/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java9663/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jungol/java1037/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jungol/java1205/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jungol/java1733/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jungol/java1828/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java11315/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java1204/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java1215/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java1218/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java1220/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java1238/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java1247/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java1289/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java1493/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java1859/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java1860/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java1940/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java1961/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java1974/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java1979/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java1984/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java2005/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java2007/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java2806/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java3124/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java3234/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java3289/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java4012/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java4047/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java4698/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java4789/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java5356/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java5644/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java6485/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java6808/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java7087/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java7236/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java7272/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java7465/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java7964/Solution.java" afterDir="false" />
+    <list default="true" id="1e913112-57ea-4c4e-bab9-919ddbd40775" name="Default Changelist" comment="아니.. 60문제 풀라는게 말이야 방구야;; 정리도 안되는데;;">
+      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java11725/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java1238/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java17626/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java4803/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java5567/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java9372/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java13038/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ssafy/swea/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/baekjoon/problem/java2563/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2563/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ssafy/swea/java1954/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java1954/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ssafy/swea/java2001/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java2001/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ssafy/swea/java2805/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java2805/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ssafy/swea/java3499/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java3499/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ssafy/swea/java5432/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java5432/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/baekjoon/problem/java10026/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java10026/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/baekjoon/problem/java10158/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java10158/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/baekjoon/problem/java11723/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java11723/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/baekjoon/problem/java1260/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java1260/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/baekjoon/problem/java1987/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java1987/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/baekjoon/problem/java2961/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2961/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/baekjoon/problem/java9663/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java9663/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ssafy/swea/java4012/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java4012/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,85 +69,72 @@
       <recent name="C:\Users\IM\Desktop\coding\algorithm\Baekjoon\kotlin\src\com\ssafy\swea\java1954" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ssafy.swea.java13038" />
       <recent name="com.ssafy.swea.java7272" />
       <recent name="com.ssafy.swea.java1215" />
       <recent name="com.ssafy.swea.java1860" />
       <recent name="com.ssafy.swea.java7087" />
-      <recent name="com.ssafy.swea.java7236" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Main (4)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.baekjoon.problem.java11725.Main" />
+      <module name="kotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baekjoon.problem.java11725.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.baekjoon.problem.java5567.Main" />
+      <module name="kotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baekjoon.problem.java5567.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.baekjoon.problem.java4803.Main" />
+      <module name="kotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baekjoon.problem.java4803.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.baekjoon.problem.java17626.Main" />
+      <module name="kotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baekjoon.problem.java17626.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.baekjoon.problem.java1790.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.baekjoon.problem.java1238.Main" />
       <module name="kotlin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.baekjoon.problem.java1780.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ssafy.swea.java1215.Solution" />
-      <module name="kotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssafy.swea.java1215.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ssafy.swea.java4789.Solution" />
-      <module name="kotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssafy.swea.java4789.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ssafy.swea.java1860.Solution" />
-      <module name="kotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssafy.swea.java1860.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ssafy.swea.java7272.Solution" />
-      <module name="kotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssafy.swea.java7272.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ssafy.swea.java7087.Solution" />
-      <module name="kotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssafy.swea.java7087.*" />
+          <option name="PATTERN" value="com.baekjoon.problem.java1238.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,19 +143,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (3)" />
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (4)" />
-      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -450,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644753976168</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="아니.. 60문제 풀라는게 말이야 방구야;; 정리도 안되는데;;">
+      <created>1645860506191</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1645860506191</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -465,7 +386,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=".gitignore 추가" />
     <MESSAGE value="7월 21일 코딩스터디&#10;두 배열의 합(2143), 한국이 그리울 땐 서버에 접속하지 해결" />
     <MESSAGE value="8월 4일 코딩스터디&#10;1, 2, 3 더하기 3, 톱니바퀴 (2) 해결" />
     <MESSAGE value="8월 18일 코딩스터디&#10;테트로미노 해결, 동전 뒤집기 미해결" />
@@ -490,7 +410,8 @@
     <MESSAGE value="자료구조를 위한 해시 문제 풀이 1 (15829번)&#10;각 파일의 메인함수가 충돌나지 않도록 함수명 변경" />
     <MESSAGE value=".. 정규 교육과정 중 풀었던 문제 드디어 커밋..&#10;바빠서 커밋도 안하고 정리도 안하고있엇다" />
     <MESSAGE value=".. 일주일 만에 또 커밋..&#10;뭐이리 많이 풀었지..?" />
-    <option name="LAST_COMMIT_MESSAGE" value=".. 일주일 만에 또 커밋..&#10;뭐이리 많이 풀었지..?" />
+    <MESSAGE value="아니.. 60문제 풀라는게 말이야 방구야;; 정리도 안되는데;;" />
+    <option name="LAST_COMMIT_MESSAGE" value="아니.. 60문제 풀라는게 말이야 방구야;; 정리도 안되는데;;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -734,6 +655,36 @@
           <url>file://$PROJECT_DIR$/src/com/ssafy/swea/java1215/Solution.java</url>
           <line>31</line>
           <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/baekjoon/problem/java1238/Main.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/baekjoon/problem/java1238/Main.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/baekjoon/problem/java1238/Main.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/baekjoon/problem/java5567/Main.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/baekjoon/problem/java4803/Main.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/baekjoon/problem/java4803/Main.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="256" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
