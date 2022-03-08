@@ -13,8 +13,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int n = sc.nextInt();
-        int m = sc.nextInt();
+        int n = sc.nextInt();   // 상근이의 동기의 수 (정점)
+        int m = sc.nextInt();   // 친구 관계를 리스트 (간선)
         boolean[][] adjMatrix = new boolean[n+1][n+1];  // 인접 행렬
 
         // 인접 행렬 초기화
@@ -35,7 +35,7 @@ public class Main {
         // 큐가 빌때 까지 혹은
         while (!q.isEmpty()){
             depth++;
-            // 친구의 친구까지 살펴봤다면 탈출
+            // 친구의 친구의 친구까지 방문했다면 탈출
             if (depth == 2)
                 break;
 

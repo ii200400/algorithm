@@ -21,8 +21,8 @@ public class Main {
         int t = Integer.parseInt(br.readLine());
         for (int testCase = 0; testCase<t; testCase++){
             StringTokenizer st = new StringTokenizer(br.readLine());
-            int n = Integer.parseInt(st.nextToken());
-            int m = Integer.parseInt(st.nextToken());
+            int n = Integer.parseInt(st.nextToken());   // 국가 수
+            int m = Integer.parseInt(st.nextToken());   // 비행기 종류의 수
             for (int i = 0; i<m; i++){
                 br.readLine();
             }
