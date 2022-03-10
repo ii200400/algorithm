@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e913112-57ea-4c4e-bab9-919ddbd40775" name="Default Changelist" comment="알고리즘 스터디 문제들 해결 및 일부 문제 주석 추가">
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java15903/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2178/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2210/Main.java" afterDir="false" />
+    <list default="true" id="1e913112-57ea-4c4e-bab9-919ddbd40775" name="Default Changelist" comment="대전 알고리즘 스터디 3문제 진행">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/baekjoon/problem/java17626/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java17626/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/baekjoon/problem/java4803/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java4803/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/baekjoon/problem/java5567/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java5567/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/baekjoon/problem/java9372/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java9372/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/ssafy/pokeball" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../programmers" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15333334" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -384,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646217480578</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="대전 알고리즘 스터디 3문제 진행">
+      <created>1646743412149</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1646743412150</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -399,7 +399,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8월 4일 코딩스터디&#10;1, 2, 3 더하기 3, 톱니바퀴 (2) 해결" />
     <MESSAGE value="8월 18일 코딩스터디&#10;테트로미노 해결, 동전 뒤집기 미해결" />
     <MESSAGE value="8월 18일 코딩스터디&#10;미해결이었던 동전 뒤집기 해결(비트마스크 미사용)" />
     <MESSAGE value="코딩 스터디가 취업 준비로 1주 미뤄지면서 올려두지 않은 코드들 커밋" />
@@ -424,7 +423,8 @@
     <MESSAGE value=".. 일주일 만에 또 커밋..&#10;뭐이리 많이 풀었지..?" />
     <MESSAGE value="아니.. 60문제 풀라는게 말이야 방구야;; 정리도 안되는데;;" />
     <MESSAGE value="알고리즘 스터디 문제들 해결 및 일부 문제 주석 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="알고리즘 스터디 문제들 해결 및 일부 문제 주석 추가" />
+    <MESSAGE value="대전 알고리즘 스터디 3문제 진행" />
+    <option name="LAST_COMMIT_MESSAGE" value="대전 알고리즘 스터디 3문제 진행" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
