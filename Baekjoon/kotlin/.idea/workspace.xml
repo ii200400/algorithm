@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e913112-57ea-4c4e-bab9-919ddbd40775" name="Default Changelist" comment="대전 알고리즘 스터디 3문제 진행">
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java14502/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java2110/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java3190/Main.java" afterDir="false" />
+    <list default="true" id="1e913112-57ea-4c4e-bab9-919ddbd40775" name="Default Changelist" comment="구미 알고리즘 스터디 프로그래머스 문제를 제외하고 3문제 진행">
+      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java16398/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java16947/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java17135/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java1743/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/baekjoon/problem/java3151/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java13475/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ssafy/swea/java13475/UserSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../programmers/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../programmers/kotlin/src/java60059/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,26 +71,13 @@
       <recent name="com.ssafy.swea.java7087" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="GUMI04_IMYEONGSEON_past" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ssafy.pokeball.GUMI04_IMYEONGSEON_past" />
-      <module name="kotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssafy.pokeball.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.baekjoon.problem.java3190.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.baekjoon.problem.java16398.Main" />
       <module name="kotlin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.baekjoon.problem.java3190.*" />
+          <option name="PATTERN" value="com.baekjoon.problem.java16398.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,11 +86,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.baekjoon.problem.java14502.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.baekjoon.problem.java3151.Main" />
       <module name="kotlin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.baekjoon.problem.java14502.*" />
+          <option name="PATTERN" value="com.baekjoon.problem.java3151.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,24 +99,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.baekjoon.problem.java2110.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.baekjoon.problem.java17135.Main" />
       <module name="kotlin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.baekjoon.problem.java2110.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.baekjoon.problem.java17626.Main" />
-      <module name="kotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.baekjoon.problem.java17626.*" />
+          <option name="PATTERN" value="com.baekjoon.problem.java17135.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +112,24 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ssafy.pokeball.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.baekjoon.problem.java16947.Main" />
       <module name="kotlin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ssafy.pokeball.*" />
+          <option name="PATTERN" value="com.baekjoon.problem.java16947.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ssafy.swea.java13475.Solution" />
+      <module name="kotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ssafy.swea.java13475.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,19 +138,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GUMI04_IMYEONGSEON_past" />
-      <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.GUMI04_IMYEONGSEON_past" />
-        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646743412150</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="구미 알고리즘 스터디 프로그래머스 문제를 제외하고 3문제 진행">
+      <created>1647048952255</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1647048952255</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,7 +402,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8월 18일 코딩스터디&#10;테트로미노 해결, 동전 뒤집기 미해결" />
     <MESSAGE value="8월 18일 코딩스터디&#10;미해결이었던 동전 뒤집기 해결(비트마스크 미사용)" />
     <MESSAGE value="코딩 스터디가 취업 준비로 1주 미뤄지면서 올려두지 않은 코드들 커밋" />
     <MESSAGE value="코딩 스터디가 카카오 코테로 1주 미뤄지면서 올려두지 않은 코드들 커밋 (+ 긴장을 풀기위해서 실패한 백준 문제 풀이)" />
@@ -427,7 +426,8 @@
     <MESSAGE value="아니.. 60문제 풀라는게 말이야 방구야;; 정리도 안되는데;;" />
     <MESSAGE value="알고리즘 스터디 문제들 해결 및 일부 문제 주석 추가" />
     <MESSAGE value="대전 알고리즘 스터디 3문제 진행" />
-    <option name="LAST_COMMIT_MESSAGE" value="대전 알고리즘 스터디 3문제 진행" />
+    <MESSAGE value="구미 알고리즘 스터디 프로그래머스 문제를 제외하고 3문제 진행" />
+    <option name="LAST_COMMIT_MESSAGE" value="구미 알고리즘 스터디 프로그래머스 문제를 제외하고 3문제 진행" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
