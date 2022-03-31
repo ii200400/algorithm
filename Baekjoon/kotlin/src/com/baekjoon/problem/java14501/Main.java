@@ -3,6 +3,11 @@
 
 // 이전에 풀었던 문제인데 기본적인 DP문제이기도 하고 DP로 문제 푼지 꽤 되어서 DP로 풀 것이다.
 
+// 다른 알고리즘 팀원은 계산을 역순으로(n~0)구하기도 하였는데
+// 한 줄? 정도 더 짧았다, 그런데 설명은 훨씬 어려웠다;;
+// 팀원 코드 링크 : https://lab.ssafy.com/dudtjs972/algorithmstudy/-/blob/master/20220330/%ED%87%B4%EC%82%AC/BJ_0330_14501_%ED%87%B4%EC%82%AC_%EC%B5%9C%EC%9E%AC%ED%98%84.java
+// 어.. 저 링크가 로그인 없이도 볼 수 있는지 모르겠다;;
+
 package com.baekjoon.problem.java14501;
 
 import java.util.Arrays;
@@ -33,7 +38,7 @@ public class Main {
             if (day > n+1)
                 continue;
 
-            // 진행한다면 상담 마지막 날 다음날에 총 수익을 저장한다.
+            // 진행한다는 가정을 해보고 나올 수 있는 이익이 해당 일에 이미 적힌 이익보다 크면 저장한다.
             maxProfit[day] = Math.max(maxProfit[day], maxProfit[i]+works[i-1][1]);
         }
 
