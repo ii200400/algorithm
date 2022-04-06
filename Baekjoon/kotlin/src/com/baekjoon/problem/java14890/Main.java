@@ -51,8 +51,7 @@ public class Main {
                         if (map[i][j+k] != height || isRamp[i][j+k]){
                             continue loadR;
                         }
-                        // 그렇지 않으면 경사로를 잘 설치하고 지나간다.......?
-                        // 이거.. 백준 테스트 케이스가.. 잘못되어있나본데..? 내가 오해하고 있나?
+                        // 그렇지 않으면 경사로를 잘 설치하고 지나간다.
                         isRamp[i][j+k] = true;
                     }
 
@@ -79,9 +78,12 @@ public class Main {
             answer++;
         }
 
+        // 경사로를 갱신을 먼저하고
+        // (가로줄 탐색에서 경사로를 썼던 것은 없는셈치고 진행하는 것이 예제 2에서 확인됨;;)
+        isRamp = new boolean[n+2][n+2];
+
         // 세로 경사로도 가로 경사로 탐색과 같이 살펴본다.
         // 주석은 생략한다.
-        isRamp = new boolean[n+2][n+2];
         loadC:for (int i = 1; i<=n; i++) {
             int j;
             for (j = 1; j < n; j++) {
