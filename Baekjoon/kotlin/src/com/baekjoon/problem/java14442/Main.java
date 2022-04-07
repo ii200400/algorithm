@@ -1,13 +1,11 @@
-// 문제 링크 : https://www.acmicpc.net/problem/2206
-// 제출 공유 링크(2차원 배열 방문체크 + 코드 간소화) : http://boj.kr/6286383098314e1ab123a071b0e21008
-// 제출 공유 링크(3차원 배열 방문체크) : http://boj.kr/b14f9993800d41cea4d2289d1a44e258
-// 백준 벽 부수고 이동하기
+// 문제 링크 : https://www.acmicpc.net/problem/14442
+// 제출 공유 링크 : http://boj.kr/e248ab2be71c405f98ff52472a1452f9
+// 백준 벽 부수고 이동하기 2
 
-// 음.. 시간은 2초인데 맵이 최대 1000 * 1000...
-// 메모리가 애매하게 192인것은 또 무엇이지;;
-// bfs로 풀어볼 예정이다.. 메모리초과가 일어나지 않았으면 좋겠다.
+// 이전의 벽 부수고 이동하기를 일반화 시키는 바람에 이 문제도 풀 수 있는지 확인하기 위해서 복붙해왔다.
+// 여기에 추가로 입력되는 k를 처리했더니 그대로 통과 되었는데.. 4초가 넘는다;; 으어;;
 
-package com.baekjoon.problem.java2206;
+package com.baekjoon.problem.java14442;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -25,6 +23,7 @@ public class Main {
         st = new StringTokenizer(br.readLine());
         int n = Integer.parseInt(st.nextToken());   // 맵의 가로 줄 수
         int m = Integer.parseInt(st.nextToken());   // 맵의 세로 줄 수
+        int k = Integer.parseInt(st.nextToken());   // 뚫을 수 있는 벽 수
         boolean[][] wall = new boolean[n][m];    // 맵 배열
         // [세로 칸수][가로 칸수]
         int[][] visited = new int[n][m];   // 각 위치별
@@ -45,8 +44,8 @@ public class Main {
 
         // 큐 생성
         Queue<int[]> q = new LinkedList<>();
-        q.add(new int[]{0, 0, 2});  // 가로, 세로, 벽을 부순지 여부(1 예스, 2이 놉 - visited 방문배열 초기화가 0이라서)
-        visited[0][0] = 2;
+        q.add(new int[]{0, 0, k+1});  // 가로, 세로, 벽을 부순지 여부(k+1은 k번 부술 수 있는 것 - visited 방문배열 초기화가 0이라서)
+        visited[0][0] = k+1;
 
         int[] dr = new int[] {1, -1, 0, 0};
         int[] dc = new int[] {0, 0, 1, -1};
