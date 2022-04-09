@@ -1,5 +1,5 @@
 // 문제 링크 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBOKg-a6l0DFAWr
-// 최장 증가 부분 수열
+// swea 최장 증가 부분 수열
 
 // 이름 그대로 최장증가 부분수열을 구하는 문제
 // 자바에 내장되어있는 이진탐색 사용방법을 알고싶어서 내장된 라이브러리로 사용했다.

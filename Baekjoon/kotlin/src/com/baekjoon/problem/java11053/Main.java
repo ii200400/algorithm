@@ -1,23 +1,32 @@
 // 문제 링크 : https://www.acmicpc.net/problem/11053
-// 제출 공유 링크 : http://boj.kr/427e13b63f0b49b385c0431ff3be0301
+// 제출 공유 링크(method1) : http://boj.kr/427e13b63f0b49b385c0431ff3be0301
+// 제출 공유 링크(method2) : http://boj.kr/c75891df116a4444a64616d9e21ad81b
 // 백준 가장 긴 증가하는 부분 수열
 
 // 최장 증가 부분 수열의 길이를 구하는 O(NlogN) 방식을 사용하려고 한다.
 // 이전에는 이분탐색 라이브러리를 사용했으니 이번에는 직접 구현해보려고 한다.
 
+// method1은 이분탐색을 활용하여 시간복잡도 O(NlogN)로 최장 증가 부분 수열의 길이를 구하는 풀이
+// method2는 시간복잡도 O(N^2)로 최장 증가 부분 수열의 길이를 구하는 풀이
 
 package com.baekjoon.problem.java11053;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+//        method1();
+        method2();
+    }
+
+    // 이분탐색을 이용한 최장 증가 부분 수열의 길이를 구하는 O(NlogN) 방식
+    static void method1(){
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();   // 수열 숫자 수
         int[] seq = new int[n]; // 수열
         int[] lis = new int[n]; // 가장 긴 증가하는 부분 수열
-        
 
         // 수열 초기화
         for (int i = 0; i<n; i++){
@@ -70,5 +79,38 @@ public class Main {
 
         // 삽입위치 반환
         return to;
+    }
+
+    //
+    static void method2(){
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();   // 수열 숫자 수
+        int[] seq = new int[n]; // 수열
+        int[] dp = new int[n];  // seq[i]로 끝나는 가장 긴 증가하는 부분 수열
+
+        // 수열 초기화
+        for (int i = 0; i<n; i++){
+            seq[i] = sc.nextInt();
+        }
+
+        // dp 초기화 (어떤 seq[i]로 끝나는 부분 수열이라도 수 하나는 존재하므로)
+        Arrays.fill(dp, 1);
+        
+        int maxLen = 1; // 가장 긴 증가하는 부분 수열의 길이
+        for (int i = 1; i<n; i++){  // 현재 탐색하는 수로 끝나는 가장 긴 증가하는 부분 수열은
+            for (int j = i-1; j>=0; j--){   // 이전에 탐색한 수들 중
+                // 현재 탐색하는 수보다 작고 가장 큰 dp값을 가진 것을 골라 저장한다.
+                if (seq[i] > seq[j] && dp[j]+1 > dp[i]) {
+                    dp[i] = dp[j]+1;
+                }
+            }
+
+            // 가장 긴 증가하는 부분 수열인지 확인하고 값을 갱신한다.
+            maxLen = Math.max(maxLen, dp[i]);
+        }
+
+        // 가장 긴 증가하는 부분 수열 길이 출력
+        System.out.println(maxLen);
     }
 }
