@@ -1,5 +1,5 @@
 // 문제 링크 : https://www.acmicpc.net/problem/15654
-// 제출 공유 링크 : http://boj.kr/953d1a6be3a346389ecf0a9a186b0335
+// 제출 공유 링크 : http://boj.kr/f8f284fee352495cabc463ffa7aed3b0
 
 // 교수님이 기초 다지기 문제로 추천하신 문제들 중 하나.
 // n과 m 시리즈 푸는 중..
