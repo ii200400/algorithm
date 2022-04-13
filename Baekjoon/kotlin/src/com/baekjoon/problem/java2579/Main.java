@@ -36,7 +36,7 @@ public class Main {
             points[i] = sc.nextInt();
         }
 
-        maxPoints[1] = new int[]{points[1], points[1]};    // 최대점수 초기화
+        maxPoints[1] = new int[]{points[1], points[1]};    // 지상에서 첫 계단에 올라오는 것은 카운트를 하지 않으므로
         for (int i = 2; i<=n; i++){
             // 한 계단 전의 계단에서 오른 계단 2개일 때 + 현 계단 점수를
             // 현재 계단에 오른 계단 1개일 때에 저장한다.
