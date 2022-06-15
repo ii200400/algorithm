@@ -6,7 +6,7 @@
 // 잠깐만.. k가 조금? 10*13이.. 1000천억?인가? 큐를 사용하려고 했더니 이건 무조건 시간초과이다;;
 // 이분탐색뿐이 안 남는데.. 해봐야.. 겠다..
 
-package java42891;
+package com.programmers.java42891;
 
 import java.util.Arrays;
 
