@@ -9,7 +9,7 @@
 // 결국 블로그를 참고하였다. k번 교환 완탐은 맞는데 방문체크와 비슷하게 이전에 숫자를 만들었는지 확인해서
 // 연산을 줄어야하는 코드가 필요하다.
 
-package com.baekjoon.problem.java1039;
+package com.baekjoon.problem.again.java1039;
 
 import java.io.IOException;
 import java.util.*;

@@ -9,7 +9,7 @@
 // 아니었다! 현 노드가 얼리어답터라고 자식노드는 무조건 얼리어답터가 아니라는 생각을 했는데 두번째 예시를 보니 아니였다!
 // 그럼.. 어떻게 풀지..;;
 
-package com.baekjoon.problem.java2533;
+package com.baekjoon.problem.again.java2533;
 
 import java.io.BufferedReader;
 import java.io.IOException;
