@@ -2,11 +2,10 @@
 
 int main(){
   char str[1000000];
-  scanf("%s", str);
+  // scanf("%s", str);
+  gets(str);
 
   int cnt[26] = {0};
-  int i = 0;
-
 
   // 'a' 는 97 'A'는 65이다.
   int minus;
