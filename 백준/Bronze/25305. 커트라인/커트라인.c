@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void insertSort(int *arr, int size);
+void swap(int *a, int *b);
+void bubbleSort(int *arr, int size);
 
 int main(){
   // 사람 수, 상을 받는 사람 수
@@ -16,7 +17,9 @@ int main(){
     scanf("%d", &x[i]);
   }
 
-  insertSort(x, n);
+  // selectionSort(x, n);
+  // insertSort(x, n);
+  bubbleSort(x, n);
 
   // 상을 받는 사람들 중 점수가 가장 가장 낮은 사람의 점수 출력
   printf("%d", x[k-1]);
@@ -26,30 +29,24 @@ int main(){
   return 0;
 }
 
-// 삽입정렬
-void insertSort(int *arr, int size){
-  // 위치를 찾고자하는 숫자를 임시 저장할 변수
-  int temp;
-  for (int i = 1; i < size; i++)
+// a와 b의 숫자를 바꿔준다.
+void swap(int *a, int *b){
+  int temp = *a;
+  *a = *b;
+  *b = temp;
+}
+
+// 버블정렬
+void bubbleSort(int *arr, int size){
+  for (int i = size-1; i > 0; i--)
   {
-    // i번째 숫자를 임시 저장
-    temp = arr[i];
 
-    // i 번째 이전의 숫자들을 탐색하면서 i번째 숫자가 들어갈 위치 확인
-    int j = i - 1;
-    for (; j >= 0; j--)
+    for (int j = 0; j < i; j++)
     {
-      // (오름차순이므로) 더 큰 숫자가 나오면 for문 탈출
-      if (temp <= arr[j])
+      if (arr[j] < arr[j+1])
       {
-        break;
+        swap(&arr[j], &arr[j + 1]);
       }
-
-      // 그렇지 않다면 이미 수를 왼쪽으로 1칸 이동
-      arr[j + 1] = arr[j];
     }
-
-    // 큰 수의 이전 인덱스에 숫자 저장
-    arr[j + 1] = temp;
   }
 }
