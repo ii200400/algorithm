@@ -1,5 +1,5 @@
 // 문제 링크 : https://www.acmicpc.net/problem/2331
-// 제출 공유 링크 : http://boj.kr/
+// 제출 공유 링크 : http://boj.kr/92d277e755b44f5c97c66a1de29b2a6e
 // 백준 분해합
 
 // c 언어를 공부하기 위해서 풀고 있는 문제 (브루트 포스)
