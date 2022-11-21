@@ -22,6 +22,7 @@ https://medium.com/@joongwon/%EC%A0%95%EB%A0%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A
 구현하고 읽어봐야겠다.
 */
 
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -29,6 +30,7 @@ void selectionSort(int *arr, int size);
 void swap(int *a, int *b);
 void insertSort(int *arr, int size);
 void bubbleSort(int *arr, int size);
+void slowQuickSort(int* arr, int left, int right);
 void quickSort(int *arr, int left, int right);
 void mergeSort(int *arr, int *tempArr, int left, int right);
 void merge(int *arr, int *tempArr, int left, int mid, int right);
@@ -49,16 +51,16 @@ int main(){
   // selectionSort(x, n);
   // insertSort(x, n);
   // bubbleSort(x, n);
-  // quickSort(x, 0, n);
+  quickSort(x, 0, n-1);
   // 합병정렬을 위한 임시 배열
-  int *tempArr = (int *)malloc(sizeof(int) * n);
-  mergeSort(x, tempArr, 0, n);
+  // int *tempArr = (int *)malloc(sizeof(int) * n);
+  // mergeSort(x, tempArr, 0, n);
 
   // 디버깅용
-  // for (int i = 0; i < n; i++)
-  // {
-  //   printf("%d ", x[i]);
-  // }
+  for (int i = 0; i < n; i++)
+  {
+    printf("%d ", x[i]);
+  }
   
 
   // 상을 받는 사람들 중 점수가 가장 가장 낮은 사람의 점수 출력
@@ -146,9 +148,9 @@ void bubbleSort(int *arr, int size){
   }
 }
 
-// 퀵소트, 기준이 되는 숫자(기준값)는 arr[left]
-// 정렬할 배열, 왼쪽 범위, 오른쪽 범위
-void quickSort(int *arr, int left, int right){
+// 혼자 만든 퀵소트로 느리다, 기준이 되는 숫자(기준값)는 arr[left]
+// 정렬할 배열, 왼쪽 범위, 오른쪽 범위 (left <= <= right)
+void slowQuickSort(int *arr, int left, int right){
   // 임시로 저장할 왼쪽과 오른쪽 포인터
   int temp_left = left, temp_right = right;
 
@@ -183,6 +185,12 @@ void quickSort(int *arr, int left, int right){
   if (temp_left + 1 < right) {
     quickSort(arr, temp_left + 1, right);
   }
+}
+
+// 일반적으로 사용하는 퀵소트, 기준이 되는 숫자(기준값)는 arr[left]
+// 정렬할 배열, 왼쪽 범위, 오른쪽 범위 (left <= <= right)
+void quickSort(int* arr, int left, int right) {
+
 }
 
 // 병합정렬
