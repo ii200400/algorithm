@@ -51,7 +51,8 @@ int main(){
   // selectionSort(x, n);
   // insertSort(x, n);
   // bubbleSort(x, n);
-  quickSort(x, 0, n-1);
+  slowQuickSort(x, 0, n-1);
+  // quickSort(x, 0, n - 1);
   // 합병정렬을 위한 임시 배열
   // int *tempArr = (int *)malloc(sizeof(int) * n);
   // mergeSort(x, tempArr, 0, n);
@@ -180,17 +181,35 @@ void slowQuickSort(int *arr, int left, int right){
   
   // 위의 방법으로 모든 숫자가 자리를 찾을 때 까지 반복한다.
   if (left < temp_left - 1) {
-    quickSort(arr, left, temp_left - 1);
+      slowQuickSort(arr, left, temp_left - 1);
   }
   if (temp_left + 1 < right) {
-    quickSort(arr, temp_left + 1, right);
+      slowQuickSort(arr, temp_left + 1, right);
   }
 }
 
 // 일반적으로 사용하는 퀵소트, 기준이 되는 숫자(기준값)는 arr[left]
 // 정렬할 배열, 왼쪽 범위, 오른쪽 범위 (left <= <= right)
 void quickSort(int* arr, int left, int right) {
+    int temp_left = left, temp_rignt = right;
+    int piviot = arr[left];
 
+    while (temp_left < temp_rignt) {
+        while (arr[temp_left] <= piviot && temp_left < temp_rignt) {
+            temp_left++;
+        }
+        while (piviot <= arr[temp_rignt] && temp_left < temp_rignt) {
+            temp_rignt--;
+        }
+
+        // 바꾸기
+        if (temp_left != temp_rignt) {
+            int temp = arr[temp_left];
+            arr[temp_left] = arr[temp_rignt];
+            arr[temp_rignt] = arr[temp_left];
+        }
+
+    }
 }
 
 // 병합정렬

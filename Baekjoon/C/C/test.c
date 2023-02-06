@@ -1,8 +1,11 @@
 #include <stdio.h>
 
-int main()
-{
-    printf("Hello, world!\n");
+int main(){
+  printf("hello world!\n");
 
-    return 0;
+  int num;
+  scanf("%d", &num);
+  printf("num: %d \n", num);
+
+  return 0;
 }
