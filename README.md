@@ -5,7 +5,7 @@
 언어별, 문제제공지별로 파일이 다르기 때문에 목차를 만들어둔다.
 
 + java
-	- [백준](https://github.com/ii200400/algorithm/tree/master/kotlin%26java/src/com/baekjoon/problem)
+	- [백준](https://github.com/ii200400/algorithm/wiki/%EB%B0%B1%EC%A4%80)
 	- [Programmers](https://github.com/ii200400/algorithm/tree/master/kotlin%26java/src/com/programmers)
 	- [SWEA](https://github.com/ii200400/algorithm/tree/master/kotlin%26java/src/com/ssafy/swea)
 	- [JUNGOL](https://github.com/ii200400/algorithm/tree/master/kotlin%26java/src/com/jungol)
@@ -14,7 +14,7 @@
 	- [Programmers](https://github.com/ii200400/algorithm/tree/master/programmers_python)
 	- [Codility](https://github.com/ii200400/algorithm/tree/master/Codility/Lessons)
 + C++
-	- [Softeer](https://github.com/ii200400/algorithm/tree/master/Softeer/cpp/cpp)
+	- [Softeer](https://github.com/ii200400/algorithm/wiki/Softeer)
 + C
 	- [백준](https://github.com/ii200400/algorithm/tree/master/Baekjoon/C/C)
 + Kotlin
