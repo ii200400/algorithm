@@ -1,35 +1,35 @@
-// ¹®Á¦¸µÅ© : https://softeer.ai/practice/info.do?idx=1&eid=411
-// Á¦Ãâ ¸µÅ© : 
-// ¼ÒÇÁÆ¼¾î µ¿°è Å×½ºÆ® ½ÃÁ¡ ¿¹Ãø
+// ë¬¸ì œë§í¬ : https://softeer.ai/practice/info.do?idx=1&eid=411
+// ì œì¶œ ë§í¬ : https://softeer.ai/practice/result.do?eventIdx=1&psProblemId=411&submissionSn=SW_PRBL_SBMS_143203
+// ì†Œí”„í‹°ì–´ ë™ê³„ í…ŒìŠ¤íŠ¸ ì‹œì  ì˜ˆì¸¡
 
-// cpp ¾ð¾î¸¦ °øºÎÇÏ±â À§ÇØ¼­ Ç®°í ÀÖ´Â level 3 ¹®Á¦
+// cpp ì–¸ì–´ë¥¼ ê³µë¶€í•˜ê¸° ìœ„í•´ì„œ í’€ê³  ìžˆëŠ” level 3 ë¬¸ì œ
 
 /*
-Å½»ö¹®Á¦·Î º¸ÀÎ´Ù. dfs³ª bfs·Î ÇØ°áÇÏ¸é µÉ °Í °°Àºµ¥..
-dfs·Î ÇØ°áÇØº¸°Ú´Ù.
+íƒìƒ‰ë¬¸ì œë¡œ ë³´ì¸ë‹¤. dfsë‚˜ bfsë¡œ í•´ê²°í•˜ë©´ ë  ê²ƒ ê°™ì€ë°..
+dfsë¡œ í•´ê²°í•´ë³´ê² ë‹¤.
 
-Áß°£¿¡ Æ²·Á¼­ ¹ö½º¿¡¼­ °í¹ÎÇØº¸´Ï.. 
-do-while ¹®À¸·Î ÀÛ¼ºÇØ¼­ ¾óÀ½ÀÌ ¾øÀ» ¶§µµ ½Ã°£ÀÌ ÃÖ¼Ò 1ÃÊÀÌ»óÀ¸·Î Ãâ·ÂµÇ´Â °ÍÀ» ¶°¿Ã·È´Ù.
-ÀÌ°Í¸¸ °íÄ¡´Ï ¸Â¾Ò´Ù! ¾ßÈ£~
+ì¤‘ê°„ì— í‹€ë ¤ì„œ ë²„ìŠ¤ì—ì„œ ê³ ë¯¼í•´ë³´ë‹ˆ.. 
+do-while ë¬¸ìœ¼ë¡œ ìž‘ì„±í•´ì„œ ì–¼ìŒì´ ì—†ì„ ë•Œë„ ì‹œê°„ì´ ìµœì†Œ 1ì´ˆì´ìƒìœ¼ë¡œ ì¶œë ¥ë˜ëŠ” ê²ƒì„ ë– ì˜¬ë ¸ë‹¤.
+ì´ê²ƒë§Œ ê³ ì¹˜ë‹ˆ ë§žì•˜ë‹¤! ì•¼í˜¸~
 */
 
 #include <iostream>
 using namespace std;
 
-// È­¸éÀÇ ¼¼·Î, °¡·Î Å©±â, ¾óÀ½ ¼ö
+// í™”ë©´ì˜ ì„¸ë¡œ, ê°€ë¡œ í¬ê¸°, ì–¼ìŒ ìˆ˜
 int n, m, cnt;
-// ¸Ê, ¹æ¹®¿©ºÎ
+// ë§µ, ë°©ë¬¸ì—¬ë¶€
 int** map;
 bool** visited;
 
-// ¾óÀ½ Å½»ö
+// ì–¼ìŒ íƒìƒ‰
 void dfs(int r, int c);
 int dir[4][2] = { {-1, 0}, {1, 0}, {0, -1}, {0, 1} };
 
 int main() {
 	cin >> n >> m;
 
-	// ¸Ê, ¹æ¹® ¿©ºÎ ÃÊ±âÈ­
+	// ë§µ, ë°©ë¬¸ ì—¬ë¶€ ì´ˆê¸°í™”
 	map = new int* [n];
 	visited = new bool* [n];
 	
@@ -45,11 +45,11 @@ int main() {
 		}
 	}
 
-	// ½Ã°£À» ÀúÀåÇÏ´Â º¯¼ö
+	// ì‹œê°„ì„ ì €ìž¥í•˜ëŠ” ë³€ìˆ˜
 	int time = 0;
-	// ¾óÀ½ÀÌ ³²Áö ¾ÊÀ»¶§±îÁö ¹Ýº¹ÇÑ´Ù.
+	// ì–¼ìŒì´ ë‚¨ì§€ ì•Šì„ë•Œê¹Œì§€ ë°˜ë³µí•œë‹¤.
 	while (cnt > 0) {
-		// ¹æ¹®¿©ºÎ ÃÊ±âÈ­
+		// ë°©ë¬¸ì—¬ë¶€ ì´ˆê¸°í™”
 		for (int i = 0; i < n; i++)
 		{
 			for (int j = 0; j < m; j++)
@@ -58,14 +58,14 @@ int main() {
 			}
 		}
 
-		// ¾óÀ½ÀÌ ³ì´Â °ÍÀ» Å½»öÇÑ´Ù.
+		// ì–¼ìŒì´ ë…¹ëŠ” ê²ƒì„ íƒìƒ‰í•œë‹¤.
 		dfs(0, 0);
 		time++;
 	}
 
 	cout << time << endl;
 
-	// ÇÒ´ç ÇØÁ¦
+	// í• ë‹¹ í•´ì œ
 	for (int i = 0; i < n; i++)
 	{
 		delete[] map[i];
@@ -76,29 +76,29 @@ int main() {
 }
 
 void dfs(int r, int c) {
-	// 4¹æÀ§¸¦ Å½»öÇÏ¸é¼­
+	// 4ë°©ìœ„ë¥¼ íƒìƒ‰í•˜ë©´ì„œ
 	int dr, dc;
 	for (int i = 0; i < 4; i++) {
 		dr = r + dir[i][0], dc = c + dir[i][1];
-		// ´ÙÀ½ Å½»öÇÒ °÷ÀÌ ¸Ê ¹ÛÀ» ³Ñ¾î°¡¸é ÆÐ½º
+		// ë‹¤ìŒ íƒìƒ‰í•  ê³³ì´ ë§µ ë°–ì„ ë„˜ì–´ê°€ë©´ íŒ¨ìŠ¤
 		if (dr < 0 || n <= dr)
 			continue;
 		if (dc < 0 || m <= dc)
 			continue;
 
-		// ¾óÀ½ÀÌ ÀÖ´Â Àå¼ÒÀÎµ¥
+		// ì–¼ìŒì´ ìžˆëŠ” ìž¥ì†Œì¸ë°
 		if (map[dr][dc] == 1)
 		{
-			// 2¹øÂ° ¹æ¹®(°ø±â¿Í 2¸é Á¢ÃË)ÀÌ¸é ¾óÀ½ÀÌ »ç¶óÁüÀ» ¾Ë ¼ö ÀÖ´Ù.
+			// 2ë²ˆì§¸ ë°©ë¬¸(ê³µê¸°ì™€ 2ë©´ ì ‘ì´‰)ì´ë©´ ì–¼ìŒì´ ì‚¬ë¼ì§ì„ ì•Œ ìˆ˜ ìžˆë‹¤.
 			if (visited[dr][dc]) {
 				map[dr][dc] = 0;
 				cnt--;
 			}
-			else { // ¾óÀ½ÀÌ °ø±â¿Í 1¸é Á¢ÃËÀÌ¶ó¸é ÀÏ´Ü ¹æ¹®Ã³¸®¸¸ ÇØµÐ´Ù.
+			else { // ì–¼ìŒì´ ê³µê¸°ì™€ 1ë©´ ì ‘ì´‰ì´ë¼ë©´ ì¼ë‹¨ ë°©ë¬¸ì²˜ë¦¬ë§Œ í•´ë‘”ë‹¤.
 				visited[dr][dc] = true;
 			}
 		}
-		// ¾óÀ½ÀÌ ¾ø´Â Àå¼ÒÀÎµ¥ ¹æ¹®ÇÏÁö ¾Ê¾Ò´Ù¸é Å½»öÁøÇà
+		// ì–¼ìŒì´ ì—†ëŠ” ìž¥ì†Œì¸ë° ë°©ë¬¸í•˜ì§€ ì•Šì•˜ë‹¤ë©´ íƒìƒ‰ì§„í–‰
 		else if(!visited[dr][dc]) {
 			visited[dr][dc] = true;
 			dfs(dr, dc);

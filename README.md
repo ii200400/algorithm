@@ -1,8 +1,31 @@
+# 알고리즘
+
+알고리즘 공부할 때 사용하는 레포지토리이다.
+
+언어별, 문제제공지별로 파일이 다르기 때문에 목차를 만들어둔다.
+
++ java
+	- [백준](https://github.com/ii200400/algorithm/wiki/%EB%B0%B1%EC%A4%80)
+	- [Programmers](https://github.com/ii200400/algorithm/tree/master/kotlin%26java/src/com/programmers)
+	- [SWEA](https://github.com/ii200400/algorithm/tree/master/kotlin%26java/src/com/ssafy/swea)
+	- [JUNGOL](https://github.com/ii200400/algorithm/tree/master/kotlin%26java/src/com/jungol)
++ Python
+	- [백준](https://github.com/ii200400/algorithm/tree/master/Baekjoon/Python)
+	- [Programmers](https://github.com/ii200400/algorithm/tree/master/programmers_python)
+	- [Codility](https://github.com/ii200400/algorithm/tree/master/Codility/Lessons)
++ C++
+	- [Softeer](https://github.com/ii200400/algorithm/wiki/Softeer)
++ C
+	- [백준](https://github.com/ii200400/algorithm/tree/master/Baekjoon/C/C)
++ Kotlin
+	- [백준](https://github.com/ii200400/algorithm/tree/master/kotlin%26java/src/com/baekjoon/problem)
+	- [Programmers](https://github.com/ii200400/algorithm/tree/master/kotlin%26java/src/com/programmers)
+
 ## 2022년 11월 10일
 
 시간이 없어서 문제는 풀고 이곳에 작성을 못하거나, 아예 문제를 못 푼 경우가 많아서 오랫동안 비었다.
 
-지금부터는 IoT공부를 위해서 C언어로 코딩을 하려고 한다. [여러 블로그](https://rasino.tistory.com/307)를 [참고](https://webnautes.tistory.com/1158)하여 Visual Studio Code에서 C언어를 사용할 수 있도록 환경설정을 하고 입출력 확인을 위해서 간단한 문제들을 백준 문제를 통해서 풀어보려고 한다.
+지금부터는 임베디드 공부를 위해서 C/C++언어로 코딩을 하려고 한다. [여러 블로그](https://rasino.tistory.com/307)를 [참고](https://webnautes.tistory.com/1158)하여 Visual Studio Code에서 언어를 사용할 수 있도록 환경설정을 하고 입출력 확인을 위해서 간단한 문제들을 백준 문제를 통해서 풀어보려고 한다.
 
 추가로 백준에서 문제를 풀면 자동으로 커밋을 해주는 기능을 알게되어서 활요해보려고 한다!
 
