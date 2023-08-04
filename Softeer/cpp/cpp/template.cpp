@@ -8,10 +8,12 @@
 문제 해설이나 생각 작성
 */
 
-#include <iostream>
+#include<iostream>
+
 using namespace std;
 
-int main() {
+int main(int argc, char** argv)
+{
 
 	return 0;
 }
